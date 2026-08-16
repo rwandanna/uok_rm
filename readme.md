@@ -761,3 +761,953 @@ Key issues include:
 # Concluding Note
 
 Across all scenarios, a strong research design requires clear alignment among the **research problem, aim, objectives, questions, hypotheses, variables, data sources, sampling strategy, analytical methods, evaluation measures, and ethical safeguards**. Diagrams should be adapted to the exact system requirements, and statistical methods should be selected according to the type of data, study design, assumptions, and intended inference.
+
+
+
+
+
+-----------
+-----------
+
+Research Methods & System Analysis — Key Takeaways
+
+Big picture:
+Problem → Objectives → Questions → Hypotheses → Approach → Sampling → Data Analysis → System Modelling
+
+1. Research Problem
+Key takeaway
+
+A research problem explains:
+
+What is wrong/unknown + why it matters + what needs to be investigated.
+
+Remember
+
+Current situation → Problem → Knowledge gap → Need for research
+
+Template
+
+Although [current situation], [problem] remains a challenge. While [technology/intervention] may address the problem, there is limited evidence about [what is unknown]. Therefore, research is needed to investigate [what you want to study].
+
+Don't confuse
+❌ Technology = not necessarily the research problem
+✅ The problem/gap surrounding the technology = research problem
+Example
+
+Rural students have limited access to qualified mathematics teachers, and it is unclear whether AI tutoring improves their mathematics performance.
+
+2. Research Objectives
+Key takeaway
+
+An objective says:
+
+What the researcher intends to DO.
+
+Usually begins with:
+
+To determine
+To examine
+To assess
+To investigate
+To evaluate
+To identify
+To compare
+To explore
+Formula
+
+To + action verb + variable/topic + context
+
+Example
+
+To determine the effect of AI tutoring on mathematics performance.
+
+General vs specific objectives
+
+General objective:
+
+The overall purpose of the study.
+
+Specific objectives:
+
+Smaller measurable tasks used to achieve the general objective.
+
+Golden rule
+
+Each objective should be:
+
+Clear
+Specific
+Measurable
+Relevant to the research problem
+Achievable
+3. Research Questions
+Key takeaway
+
+A research question says:
+
+What does the researcher want to find out?
+
+The question should correspond directly to an objective.
+
+Example
+
+Objective:
+
+To determine the effect of AI tutoring on mathematics performance.
+
+Question:
+
+What is the effect of AI tutoring on mathematics performance?
+
+Common conversions
+Objective	Research question
+To determine the effect of X on Y	What is the effect of X on Y?
+To examine relationship between X and Y	What is the relationship between X and Y?
+To compare A and B	Is there a difference between A and B?
+To assess the level of X	What is the level of X?
+To identify factors influencing X	What factors influence X?
+To explore perceptions of X	What are users' perceptions of X?
+To determine whether X predicts Y	To what extent does X predict Y?
+Key rule
+
+Objective = statement.
+Question = question.
+
+4. Hypotheses
+Key takeaway
+
+A hypothesis is:
+
+A testable prediction about a relationship, effect, difference, or prediction.
+
+You normally derive it from your research question/objective.
+
+Two main hypotheses
+
+H₀ = Null hypothesis
+
+No significant effect/relationship/difference.
+
+H₁ = Alternative hypothesis
+
+Significant effect/relationship/difference exists.
+
+Example
+
+Research question:
+
+What is the effect of AI tutoring on mathematics performance?
+
+H₀:
+
+AI tutoring has no statistically significant effect on mathematics performance.
+
+H₁:
+
+AI tutoring has a statistically significant effect on mathematics performance.
+
+Remember
+
+H₀ = Nothing significant is happening.
+
+H₁ = Something significant is happening.
+
+5. Hypothesis Types
+Effect
+
+RQ:
+
+What is the effect of X on Y?
+
+H₀:
+
+X has no significant effect on Y.
+
+H₁:
+
+X has a significant effect on Y.
+
+Relationship
+
+RQ:
+
+What is the relationship between X and Y?
+
+H₀:
+
+There is no significant relationship between X and Y.
+
+H₁:
+
+There is a significant relationship between X and Y.
+
+Difference
+
+RQ:
+
+Is there a difference between Group A and Group B?
+
+H₀:
+
+There is no significant difference.
+
+H₁:
+
+There is a significant difference.
+
+Prediction
+
+RQ:
+
+To what extent does X predict Y?
+
+H₀:
+
+X does not significantly predict Y.
+
+H₁:
+
+X significantly predicts Y.
+
+6. Research Approach
+Key takeaway
+
+Research approach asks:
+
+What type of evidence do I need to answer my research problem?
+
+There are three main approaches.
+
+Quantitative
+
+Numbers + measurement + statistics
+
+Use when you want to:
+
+Measure
+Compare
+Test relationships
+Test effects
+Predict
+Test hypotheses
+Think:
+
+How much? How many? How strong? Does X affect Y?
+
+Qualitative
+
+Words + experiences + meanings
+
+Use when you want to understand:
+
+Experiences
+Perceptions
+Opinions
+Feelings
+Challenges
+Motivations
+Why/how something happens
+Think:
+
+Why? How? What do people experience?
+
+Mixed Methods
+
+Quantitative + qualitative
+
+Use when you need both:
+
+“Does it work?” + “Why/how does it work?”
+
+Example
+
+AI tutoring:
+
+Pre/post-test → quantitative
+Student interviews → qualitative
+Both → mixed methods
+7. Research Approach vs Research Design
+
+Don't confuse these.
+
+Research approach
+
+How broadly will you investigate?
+
+Quantitative
+Qualitative
+Mixed methods
+Research design
+
+What specific structure will you use?
+
+Examples:
+
+Experimental
+Quasi-experimental
+Correlational
+Survey
+Case study
+Descriptive
+Example
+
+Approach: Quantitative
+Design: Quasi-experimental
+
+8. Sampling
+Key takeaway
+
+Sampling asks:
+
+Who will participate, and how will I select them?
+
+Important terms
+
+Population
+
+Everyone you want to study.
+
+Sample
+
+The smaller group you actually study.
+
+Sampling strategy
+
+The method used to select the sample.
+
+9. Probability Sampling
+
+Everyone has a known chance of selection.
+
+Usually useful for quantitative research.
+
+Simple Random
+
+Everyone has an equal chance.
+
+Think: random selection.
+
+Systematic
+
+Select every kth person.
+
+Example:
+
+Every 10th student.
+
+Think: fixed interval.
+
+Stratified
+
+Divide population into groups and sample from each group.
+
+Example:
+
+Sample students from every year of study.
+
+Think:
+
+EVERY GROUP
+
+Cluster
+
+Divide into natural groups and select some groups.
+
+Example:
+
+Select 10 schools and study students within those schools.
+
+Think:
+
+SOME GROUPS
+
+Multistage
+
+Sampling occurs through several levels.
+
+Example:
+
+District → School → Student
+
+Think:
+
+Several stages
+
+10. Non-Probability Sampling
+
+Not everyone has a known/equal chance.
+
+Purposive
+
+Deliberately select people with relevant knowledge/experience.
+
+Think:
+
+Specific people
+
+Example:
+
+CHWs who have used a mobile health application.
+
+Convenience
+
+Select whoever is easiest to access.
+
+Think:
+
+Easy to reach
+
+Snowball
+
+Participants recommend other participants.
+
+Think:
+
+Participant → participant → participant
+
+Quota
+
+Recruit until predetermined subgroup numbers are reached.
+
+Example:
+
+50 males + 50 females.
+
+11. Sampling Cheat Sheet
+Situation	Strategy
+Equal chance	Simple random
+Every kth person	Systematic
+People from every subgroup	Stratified
+Select whole groups	Cluster
+Several sampling levels	Multistage
+Specific experience needed	Purposive
+Easiest people to reach	Convenience
+Participants recruit others	Snowball
+Fill subgroup targets	Quota
+Most important distinction
+
+Stratified = sample FROM every group.
+
+Cluster = select SOME groups.
+
+12. Correlation
+Key takeaway
+
+Correlation asks:
+
+Are X and Y related?
+
+Example:
+
+Is LMS engagement related to academic performance?
+
+Correlation coefficient
+
+Usually r.
+
+Range:
+
+-1 to +1
+
++1 = perfect positive relationship
+0 = no linear relationship
+-1 = perfect negative relationship
+Remember
+
+Correlation = CONNECTION
+
+Very important
+
+Correlation does not automatically mean causation.
+
+If X and Y are correlated, it does not prove X caused Y.
+
+13. Regression
+Key takeaway
+
+Regression asks:
+
+Can X be used to predict Y?
+
+Example:
+
+Can LMS engagement predict examination performance?
+
+Basic equation:
+
+Y = b₀ + b₁X
+
+Where:
+
+Y = outcome
+X = predictor
+b₀ = intercept
+b₁ = coefficient/slope
+Remember
+
+Regression = PREDICTION
+
+14. Correlation vs Regression
+Correlation	Regression
+Relationship	Prediction
+X ↔ Y	X → Y
+Measures association	Models/predicts outcome
+Uses correlation coefficient	Uses regression equation/coefficients
+Memory
+
+Correlation = Are they connected?
+
+Regression = Can X predict Y?
+
+15. Classification
+Key takeaway
+
+Classification predicts a:
+
+CATEGORY / CLASS
+
+Examples:
+
+Disease / No disease
+Phishing / Legitimate
+Pass / Fail
+Forest / Agriculture / Water
+At-risk / Not at-risk
+Remember
+
+Classification = CATEGORY
+
+Compare
+Technique	Predicts
+Regression	Number
+Classification	Category
+
+Example:
+
+Crop yield = 3.5 tonnes → Regression
+
+Crop type = Maize → Classification
+
+16. Classification Algorithms
+
+Common examples:
+
+Decision Tree
+
+Makes decisions through rules.
+
+If attendance < 50% → At risk.
+
+K-Nearest Neighbors (KNN)
+
+Looks at similar/nearby examples and uses their classes.
+
+Logistic Regression
+
+Despite its name, it is often used for:
+
+Classification, especially binary outcomes.
+
+17. Classification Evaluation
+
+A common tool is the confusion matrix.
+
+	Actual Positive	Actual Negative
+Predicted Positive	TP	FP
+Predicted Negative	FN	TN
+Remember
+TP = correctly predicted positive
+TN = correctly predicted negative
+FP = false alarm
+FN = missed positive
+
+Important metrics:
+
+Accuracy = overall correctness
+Precision = correctness of positive predictions
+Recall = how many actual positives were found
+18. Context Diagram
+Key takeaway
+
+A context diagram shows:
+
+Who/what interacts with the entire system?
+
+It gives the big picture.
+
+Example:
+
+Student ───────→
+               │
+Teacher ───────→ AI TUTORING SYSTEM
+               │
+Admin ─────────→
+
+Important
+
+The system is normally treated as one single process.
+
+Remember:
+
+Context = SYSTEM + EXTERNAL INTERACTIONS
+
+19. DFD
+
+DFD = Data Flow Diagram
+
+Key takeaway
+
+A DFD shows:
+
+How data moves through the system.
+
+It can show:
+
+External entities
+Processes
+Data stores
+Data flows
+
+Example:
+
+Student
+   ↓
+Submit Question
+   ↓
+AI Processing
+   ↓
+Generate Answer
+   ↓
+Student
+
+Remember
+
+DFD = DATA FLOW
+
+20. Context Diagram vs DFD
+Context	DFD
+High-level	More detailed
+Whole system as one process	Multiple processes
+External interactions	Data movement
+Big picture	Internal data flow
+Memory
+
+Context = WHO interacts?
+
+DFD = HOW DOES DATA MOVE?
+
+21. Activity Diagram
+Key takeaway
+
+Shows:
+
+Activities and their sequence/workflow.
+
+Example:
+
+START
+  ↓
+Login
+  ↓
+Select Topic
+  ↓
+Answer Question
+  ↓
+Correct?
+ /    \
+Yes    No
+ ↓      ↓
+Next   Hint
+  \    /
+    ↓
+   END
+
+
+Can show:
+
+Start
+Activities
+Decisions
+Loops
+End
+Remember
+
+Activity = WORKFLOW
+
+22. Flowchart
+Key takeaway
+
+A flowchart shows:
+
+Procedural or algorithmic logic.
+
+Example:
+
+START
+  ↓
+Enter marks
+  ↓
+Marks ≥ 50?
+ /       \
+Yes       No
+ ↓         ↓
+PASS      FAIL
+ \         /
+    ↓
+   END
+
+Remember
+
+Flowchart = ALGORITHM / LOGIC
+
+23. Activity Diagram vs Flowchart
+
+They are similar, but:
+
+Activity diagram
+
+Focuses on:
+
+System/business workflow
+
+Example:
+
+Submit assignment → teacher reviews → grade recorded.
+
+Flowchart
+
+Focuses on:
+
+Algorithm/procedure
+
+Example:
+
+Input marks → calculate average → if average ≥ 50 → pass.
+
+Memory
+
+Activity = WORK
+
+Flowchart = LOGIC
+
+24. Class Diagram
+Key takeaway
+
+A class diagram shows:
+
+Classes/objects, their attributes, methods, and relationships.
+
+Example:
+
++------------------+
+|     Student      |
++------------------+
+| studentID        |
+| name             |
+| email            |
++------------------+
+| login()          |
+| submitAnswer()   |
++------------------+
+
+
+A class contains:
+
+Class name
+Attributes
+Methods/operations
+Remember
+
+Class = SOFTWARE OBJECTS
+
+25. ERD
+
+ERD = Entity Relationship Diagram
+
+Key takeaway
+
+An ERD shows:
+
+What data the database stores and how entities are related.
+
+Example:
+
+STUDENT
+---------
+StudentID PK
+Name
+Email
+
+     |
+     | enrolls
+     ↓
+
+COURSE
+---------
+CourseID PK
+CourseName
+
+
+Important concepts:
+
+Entity
+Attribute
+Primary key
+Foreign key
+Relationship
+Cardinality
+Remember
+
+ERD = DATABASE
+
+26. Class Diagram vs ERD
+Class Diagram	ERD
+Software design	Database design
+Classes	Entities
+Attributes	Attributes
+Methods	Usually no methods
+Inheritance	Relationships/keys
+Objects	Stored data
+Memory
+
+Class = how software objects behave
+
+ERD = how database data is organized
+
+27. Collaboration Diagram
+
+Also commonly called a communication diagram.
+
+Key takeaway
+
+It shows:
+
+Which objects communicate with each other and what messages they exchange.
+
+Example:
+
+Student
+   |
+1: login()
+   ↓
+Mobile App
+   |
+2: authenticate()
+   ↓
+Authentication Server
+   |
+3: verify()
+   ↓
+Database
+
+
+The numbered messages are important.
+
+Remember
+
+Collaboration = OBJECT COMMUNICATION
+
+28. All Diagram Types — One Table
+| Diagram | Main question | Keyword |
+|---|---|---|
+| **Context Diagram** | Who interacts with the system? | **Interaction** |
+| **DFD** | How does data move? | **Data** |
+| **Activity Diagram** | What activities happen? | **Workflow** |
+| **Flowchart** | What is the algorithm/logic? | **Logic** |
+| **Class Diagram** | What software objects exist? | **Objects** |
+| **ERD** | What data is stored? | **Database** |
+| **Collaboration Diagram** | Which objects communicate? | **Communication** |
+
+
+29. The Entire Topic in One Memory Map
+```
+RESEARCH
+│
+├── Research Problem
+│     └── What is wrong/unknown?
+│
+├── Objectives
+│     └── What will I DO?
+│
+├── Questions
+│     └── What do I want to KNOW?
+│
+├── Hypotheses
+│     └── What do I PREDICT?
+│
+├── Research Approach
+│     ├── Quantitative → NUMBERS
+│     ├── Qualitative → EXPERIENCES
+│     └── Mixed → BOTH
+│
+├── Sampling
+│     └── Who will I study?
+│
+└── Data Analysis
+      ├── Correlation → RELATIONSHIP
+      ├── Regression → PREDICTION
+      └── Classification → CATEGORY
+```
+```
+SYSTEM ANALYSIS
+│
+├── Context → INTERACTIONS
+├── DFD → DATA FLOW
+├── Activity → WORKFLOW
+├── Flowchart → ALGORITHM
+├── Class → OBJECTS
+├── ERD → DATABASE
+└── Collaboration → COMMUNICATION
+```
+30. The 20-second exam cheat sheet
+
+--------------
+
+If you're under exam pressure, remember these:
+```
+Research problem → What is wrong/unknown?
+
+Objective → What will I do?
+
+Question → What do I want to know?
+
+Hypothesis → What do I predict?
+
+Quantitative → Numbers.
+
+Qualitative → Experiences/meaning.
+
+Mixed → Numbers + experiences.
+
+Sampling → Who do I select?
+
+Correlation → Relationship.
+
+Regression → Prediction.
+
+Classification → Category.
+
+Context diagram → External interactions.
+
+DFD → Data movement.
+
+Activity diagram → Workflow.
+
+Flowchart → Algorithm/logic.
+
+Class diagram → Software objects.
+
+ERD → Database.
+
+Collaboration diagram → Object communication.
+```
+The most important chain to memorize:
+```
+Problem → Objective → Question → Hypothesis → Approach → Sampling → Analysis
+```
+And for systems:
+
+```
+Context → Data → Process → Objects → Database → Communication
+```
+
