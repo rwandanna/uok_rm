@@ -1608,6 +1608,7 @@ Remember
 Collaboration = OBJECT COMMUNICATION
 
 28. All Diagram Types — One Table
+
 | Diagram | Main question | Keyword |
 |---|---|---|
 | **Context Diagram** | Who interacts with the system? | **Interaction** |
