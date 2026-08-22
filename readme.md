@@ -1,1714 +1,2526 @@
-# Model Answers: Research Methods and Information Systems Scenarios
-
-This document provides self-contained model answers to Questions 1–10. The answers are written as academically appropriate examples; exact wording, variables, sample sizes, and statistical procedures may be adapted to a particular proposal or dataset.
-
----
-
-# QUESTION 1: Digital Education and AI Tutoring
-
-## a. Research problem
-
-A suitable research problem is:
+# Advanced Research Methodology in Information Systems
 
-> **Despite the potential of AI-powered mobile tutoring to provide personalized mathematics support in rural secondary schools, there is insufficient local evidence on whether its use improves students' mathematics performance under conditions of limited teacher availability, unequal device access, intermittent connectivity, and differing levels of digital literacy.**
+## Master's in Information Technology --- Exam Preparation Model Questions and Answers
 
-The problem is **researchable** because AI-platform usage and mathematics performance can be measured using system logs, tests, and questionnaires. It is **feasible** if the study is limited to selected schools, classes, or one academic term. It is **significant** because poor access to qualified mathematics teachers can affect educational achievement and AI tutoring may provide additional support. It is **contextually relevant** because rural schools may face infrastructure, affordability, language, device-sharing, and connectivity constraints that make findings from other settings difficult to generalize.
+> **Study note:** This document is a self-contained
+> examination-preparation guide. It includes all ten model questions and
+> comprehensive answers. Personal names and registration numbers have
+> been intentionally removed.
 
-## b. Research objectives and questions
+# QUESTION ONE
 
-### Objectives
-1. To determine the effect of using the AI-powered mobile tutoring platform on students' mathematics performance.
-2. To examine the relationship between the frequency/intensity of AI tutoring use and mathematics achievement.
-3. To investigate students' and teachers' perceptions of the usefulness, usability, and challenges of the AI tutoring platform.
+## (a) Critical distinction between research topic, research problem, research gap, research objective and research question
 
-### Research questions
-1. What effect does use of the AI-powered mobile tutoring platform have on students' mathematics performance?
-2. How do usage patterns and user perceptions relate to students' mathematics achievement?
+### i. Research Topic
 
-## c. Hypotheses
+A **research topic** is the broad subject area or field that the
+researcher intends to investigate. It establishes the general boundaries
+of the study but does not by itself identify a specific problem or
+unanswered question.
 
-For the main effectiveness test:
+For the case study, an appropriate topic is:
 
-- **H₀:** There is no statistically significant difference in mathematics performance between students who use the AI tutoring platform and comparable students who do not use it.
-- **H₁:** There is a statistically significant difference in mathematics performance between students who use the AI tutoring platform and comparable students who do not use it.
+**Factors influencing the adoption and effective use of AI-enabled
+intelligent Student Information Systems in developing-country
+universities.**
 
-If a directional hypothesis is justified:
+### ii. Research Problem
 
-- **H₀:** Use of the AI tutoring platform does not significantly improve mathematics performance.
-- **H₁:** Use of the AI tutoring platform significantly improves mathematics performance.
+A **research problem** is a specific practical or scholarly issue that
+requires systematic investigation. It describes an undesirable
+condition, its consequences, and the need to understand or solve it.
 
-## d. Appropriate research approach
+In the case study, previous digital transformation initiatives have
+resulted in fragmented databases, inconsistent data formats, weak
+interoperability, inadequate data governance, limited staff
+competencies, privacy concerns, cybersecurity vulnerabilities and
+resistance to technological change.
 
-A **mixed-methods approach** is most appropriate. Quantitative data, such as pre-test and post-test scores, platform usage frequency, completion rates, and attendance, can estimate the magnitude of any performance change. Qualitative interviews or focus groups can explain why the platform was or was not effective and identify barriers such as connectivity, language, trust, digital literacy, or teacher support. Combining both forms of evidence provides stronger practical conclusions than either approach alone.
+Therefore, the research problem is:
 
-## e. Ethical issues
+**The university lacks sufficient empirical understanding of how
+technological, organizational, human, institutional and governance
+factors interact to influence the adoption and effective use of
+AI-enabled intelligent Student Information Systems.**
 
-Because school students are a potentially vulnerable population, the study should obtain approval from the relevant ethics authority and education institutions. **Parental/guardian consent** and, where appropriate, **student assent** should be obtained. Participation should be voluntary and students should not be penalized for declining.
+The problem is therefore **not simply the absence of an AI system**.
+Developing a new system alone may not solve organizational, human or
+governance problems.
 
-Academic and behavioral data should be collected only when necessary, using **data minimization**. Personally identifying information should be separated from research data or replaced with coded identifiers. Access should be restricted according to roles, and data should be encrypted during transmission and storage where feasible. Researchers should clearly state who can access the data, how long it will be retained, whether it will be shared, and how it will be securely deleted. Reports should present aggregated or anonymized findings. Particular care is needed because behavioral logs may reveal learning difficulties, habits, or patterns that could stigmatize students if misused.
+### iii. Research Gap
 
-## f. Context diagram and activity diagram
+A **research gap** is an area where existing knowledge is insufficient,
+inconsistent, contradictory or missing.
 
-### Context diagram
+The case indicates that there is limited empirical evidence explaining:
 
-```text
-+----------------+        learning requests/results        +----------------------+
-|    Students    | <-------------------------------------> |  AI Tutoring System  |
-+----------------+                                         +----------------------+
-                                                                    |
-                 progress reports / administration                  |
-                                                                    v
-+----------------+ <------------------------------------------> +----------------+
-| Teachers/School|          performance and usage data          | Administrators |
-+----------------+                                               +----------------+
-                                                                    |
-                                                                    v
-                                                            +----------------+
-                                                            | AI/Content/Data|
-                                                            | Services        |
-                                                            +----------------+
-```
+-   how technological factors interact with organizational factors;
+-   how human competencies influence AI adoption;
+-   how governance and institutional conditions affect implementation;
+-   how these factors operate together in developing-country
+    universities; and
+-   how the factors influence both adoption and effective use.
 
-### Activity diagram
+Therefore:
 
-```text
-(Start)
-   |
-   v
-[Student logs in]
-   |
-   v
-[Select mathematics topic]
-   |
-   v
-[Diagnostic assessment]
-   |
-   v
-[AI analyzes current knowledge]
-   |
-   v
-[Generate personalized lesson/exercises]
-   |
-   v
-[Student answers]
-   |
-   +---- Incorrect ----> [Give hint/explanation] ----+
-   |                                                 |
-   +---- Correct ------------------------------------+
-                                                     v
-                                             [Update progress]
-                                                     |
-                                                     v
-                                             [Store authorized data]
-                                                     |
-                                                     v
-                                                   (End)
-```
+**Existing studies have examined individual determinants of
+information-system adoption, but limited empirical research explains the
+combined and interacting influence of technological, organizational,
+human, institutional and governance factors on the adoption and
+effective use of intelligent Student Information Systems in
+developing-country universities.**
 
----
+This represents mainly an **empirical, contextual and relational
+research gap**.
 
-# QUESTION 2: Smart Traffic Management in Kigali
+### iv. Research Objective
 
-## a. Research problem and narrowing
+A **research objective** states what the researcher intends to achieve
+through the study. It should be clear, measurable, realistic and
+directly related to the research problem.
 
-A suitable research problem is:
+Examples of appropriate action verbs include:
 
-> **Traffic congestion and road-safety risks in Kigali may be worsened by limited real-time coordination of traffic information. Although GPS, cameras, IoT sensors, and adaptive traffic lights could support intelligent traffic management, there is insufficient evidence on which data sources and predictive methods most effectively improve congestion prediction and signal decisions in selected Kigali traffic corridors.**
+-   examine;
+-   determine;
+-   assess;
+-   investigate;
+-   establish;
+-   evaluate;
+-   explore.
 
-To make the investigation feasible, it should be narrowed to, for example, **three to five high-congestion corridors**, selected intersections, specific peak periods, and one or two measurable outcomes such as average travel time, queue length, delay, or congestion category. A pilot study over several weeks or months is more manageable than attempting to model the entire city.
-
-## b. Primary and secondary data
-
-**Primary data** are collected directly for the current study. Examples include:
-- Traffic counts conducted by researchers.
-- GPS traces voluntarily provided by sampled vehicles.
-- Roadside sensor readings.
-- Driver or commuter surveys.
-- Interviews with traffic officers and transport planners.
-- Direct observation of queues and signal waiting times.
-
-**Secondary data** already exist and were originally collected for another purpose. Examples include:
-- Historical traffic records.
-- Road-network maps.
-- Previous accident statistics.
-- Published reports and academic studies.
-- Weather records.
-- Existing municipal transport datasets.
-
-The main distinction is that primary data are collected specifically to answer the present research questions, whereas secondary data are reused from existing sources.
-
-## c. Sampling strategy
-
-A **multistage stratified sampling strategy** is suitable.
-
-1. Stratify roads or intersections by characteristics such as congestion level, road type, district, or land-use intensity.
-2. Randomly or purposively select representative sites from each stratum.
-3. Stratify observations by time period, such as morning peak, midday, evening peak, and weekend.
-4. For drivers or commuters, use systematic or stratified sampling where a valid sampling frame exists.
-
-This approach improves representation because congestion differs by location and time. A simple sample from one road or one peak period could produce biased conclusions.
-
-## d. Correlation, regression, and classification
+Example:
 
-**Correlation** can measure the strength and direction of association between variables such as traffic volume and average speed.
+**To examine the influence of technological, organizational, human and
+institutional factors on the adoption and effective use of AI-enabled
+Student Information Systems.**
 
-**Regression** can model a continuous outcome, for example:
+### v. Research Question
 
-\[
-TravelTime = \beta_0 + \beta_1(TrafficVolume) + \beta_2(Weather) + \beta_3(TimeOfDay) + \epsilon
-\]
+A **research question** is an interrogative statement derived from a
+research objective. It specifies what the researcher seeks to discover
+through empirical investigation.
 
-The model can estimate how each predictor is associated with travel time while holding other variables constant.
+Example:
 
-**Classification** can predict categories such as *free flow*, *moderate congestion*, and *severe congestion*. Inputs may include vehicle count, average speed, occupancy, time, weather, incidents, and historical patterns. Classification performance can be assessed using accuracy, precision, recall, F1-score, and a confusion matrix.
+**How do technological, organizational, human and institutional factors
+influence the adoption and effective use of AI-enabled Student
+Information Systems?**
 
-## e. Ethical concerns
+### Logical relationship among the concepts
 
-GPS and camera data can reveal sensitive movement patterns. Continuous surveillance may affect privacy and create risks of misuse or unauthorized monitoring. Vehicle identifiers and number plates can be personally identifiable when linked with other information.
+The concepts are logically connected as follows:
 
-Safeguards include collecting only necessary data, defining a clear legal basis and purpose, providing notices where required, limiting retention periods, pseudonymizing identifiers, controlling access, encrypting data, auditing access, and establishing procedures for breaches and third-party sharing. Data collected for traffic optimization should not be reused for unrelated purposes without appropriate authorization.
+**Research Topic → Research Problem → Research Gap → Objectives →
+Research Questions → Methodology → Findings → Contribution**
 
-## f. Data-flow diagram and class diagram
+In this case:
 
-### Level-0 data-flow diagram
+-   **Topic:** AI-enabled Student Information Systems.
+-   **Problem:** Existing digital systems suffer from technical,
+    organizational, human and governance weaknesses.
+-   **Gap:** Existing research insufficiently explains how these factors
+    interact in developing-country universities.
+-   **Objectives:** State what the researcher will investigate.
+-   **Questions:** Translate the objectives into answerable questions.
+-   **Methodology:** Determines how evidence will be collected and
+    analyzed.
+-   **Contribution:** Provides theoretical, empirical and practical
+    knowledge.
 
-```text
-[GPS Devices] ----\
-[Traffic Cameras] ---> (Traffic Data Collection) ---> (Data Processing)
-[IoT Sensors] ----/                                      |
-                                                          v
-                                                  (Prediction Engine)
-                                                          |
-                                                          v
-                                                   (Control Decisions)
-                                                          |
-                              +---------------------------+------------------+
-                              v                           v                  v
-                       [Traffic Lights]            [Traffic Dashboard] [Alerts]
-```
+A useful examination statement is:
 
-### Class diagram
+**The research problem explains why investigation is necessary; the
+research gap explains what is missing from existing knowledge;
+objectives state what the researcher will accomplish; and research
+questions state what the researcher seeks to answer.**
 
-```text
-+----------------+        +----------------+
-| RoadSegment    |        | Sensor         |
-|----------------|        |----------------|
-| roadId         |1      *| sensorId       |
-| name           |--------| location       |
-| length         |        | status         |
-+----------------+        +----------------+
+------------------------------------------------------------------------
 
-+----------------+        +----------------+
-| TrafficReading |        | Prediction     |
-|----------------|        |----------------|
-| readingId      |        | predictionId   |
-| time           |        | congestionLevel|
-| speed          |        | forecastTime   |
-| volume         |        +----------------+
-+----------------+                ^
-        ^                         |
-        |                         |
-        +-------------------------+
-                  used by
-             +----------------+
-             | TrafficController|
-             |----------------|
-             | controlId      |
-             | optimizeSignal()|
-             +----------------+
-                    |
-                    v
-             +----------------+
-             | TrafficLight   |
-             |----------------|
-             | lightId        |
-             | state          |
-             | changeTiming() |
-             +----------------+
-```
+## (b) General objective, specific objectives and research questions
 
----
+### General Research Objective
 
-# QUESTION 3: AI-Based Smart Agriculture
+**To examine how technological, organizational, human, institutional and
+governance factors influence the adoption and effective use of
+AI-enabled intelligent Student Information Systems in developing-country
+universities.**
 
-## a. Research aim and objectives
+### Specific Research Objectives
 
-### Aim
-To evaluate whether an AI-based forecasting system using environmental, soil, satellite, and historical agricultural data can improve crop-yield prediction for smallholder farming contexts in Rwanda.
+**Objective 1:**\
+To assess the influence of technological factors, including system
+quality, data quality, interoperability, cybersecurity and
+infrastructure, on the adoption of AI-enabled Student Information
+Systems.
 
-### Objectives
-1. To compile and preprocess rainfall, temperature, soil, satellite-imagery, and historical crop-yield data.
-2. To identify the environmental and agricultural variables most strongly associated with crop productivity.
-3. To develop and train an AI-based crop-yield prediction model.
-4. To compare the prediction accuracy of the AI model with an appropriate baseline forecasting method.
+**Objective 2:**\
+To determine the influence of organizational factors, including
+organizational readiness, management support, staff training and
+data-governance practices, on system adoption and effective use.
 
-## b. Hypothesis
+**Objective 3:**\
+To examine the influence of human factors, including digital competence,
+perceived usefulness, perceived ease of use and trust, on effective
+system use.
 
-- **H₀:** The AI-based forecasting model does not significantly improve crop-yield prediction accuracy compared with the baseline model.
-- **H₁:** The AI-based forecasting model significantly improves crop-yield prediction accuracy compared with the baseline model.
+**Objective 4:**\
+To determine the influence of institutional and governance factors,
+including policies, accountability, privacy governance and regulatory
+support, on system adoption and effective use.
 
-Accuracy may be operationalized using MAE, RMSE, or another pre-specified error measure.
+**Objective 5:**\
+To establish the combined and relative effects of technological,
+organizational, human, institutional and governance factors on the
+effective use of AI-enabled Student Information Systems.
 
-## c. Inductive and deductive reasoning
+### Corresponding Research Questions
 
-**Inductive reasoning** moves from observations to broader patterns or propositions. Researchers could explore historical farm and environmental data, observe recurring relationships between rainfall, vegetation indicators, soil characteristics, and yields, and use those patterns to develop candidate predictors or hypotheses.
+**RQ1:** How do technological factors influence the adoption of
+AI-enabled Student Information Systems?
 
-**Deductive reasoning** begins with a theory or hypothesis and tests it using data. For example, the researchers may hypothesize that combining multi-source environmental variables will reduce prediction error compared with a historical-average model. The hypothesis is then tested on training and independent test data.
+**RQ2:** How do organizational factors influence the adoption and
+effective use of AI-enabled Student Information Systems?
 
-Thus, induction is useful for discovering patterns, while deduction is useful for formally testing proposed relationships.
+**RQ3:** How do human factors influence effective use of AI-enabled
+Student Information Systems?
 
-## d. Stratified sampling
+**RQ4:** How do institutional and governance factors influence adoption
+and effective use of AI-enabled Student Information Systems?
 
-Stratified sampling is justified because agricultural conditions are heterogeneous. The population can be divided into strata based on:
-- Agro-ecological zones.
-- Major crop types.
-- Soil characteristics.
-- Altitude or climatic conditions.
+**RQ5:** What are the combined and relative effects of technological,
+organizational, human, institutional and governance factors on effective
+use of AI-enabled Student Information Systems?
 
-A sample is then selected from each relevant stratum. This increases the likelihood that important environmental diversity is represented and can improve generalizability compared with sampling only from easily accessible farms.
+### Objective--Question Alignment
 
-## e. Statistical techniques
+  -----------------------------------------------------------------------
+  Specific Objective                  Corresponding Research Question
+  ----------------------------------- -----------------------------------
+  Assess technological factors        How do technological factors
+                                      influence adoption?
 
-**Correlation analysis** can identify variables associated with crop yield, although correlation does not establish causation.
+  Determine organizational factors    How do organizational factors
+                                      influence adoption and use?
 
-**Regression analysis** can estimate the relationship between yield and multiple predictors, for example rainfall, temperature, soil properties, and vegetation indices. Regression coefficients can help assess the contribution of predictors under model assumptions.
+  Examine human factors               How do human factors influence
+                                      effective use?
 
-**Principal Component Analysis (PCA)** can reduce a large set of correlated variables into fewer components that preserve substantial variation. PCA can reduce multicollinearity and simplify later modelling, although transformed components may be less directly interpretable.
+  Determine institutional/governance  How do institutional and governance
+  factors                             factors influence adoption and use?
 
-## f. Flowchart and correlation diagram
+  Establish combined effects          What are the combined and relative
+                                      effects?
+  -----------------------------------------------------------------------
 
-### Flowchart
+This alignment ensures that **each objective has a corresponding
+research question**.
 
-```text
-(Start)
-   |
-[Collect rainfall, temperature, soil, imagery, yield data]
-   |
-[Clean and validate data]
-   |
-[Feature engineering/selection]
-   |
-[Split data: training, validation, test]
-   |
-[Train AI model]
-   |
-[Evaluate prediction accuracy]
-   |
-{Accuracy acceptable?}
-   | Yes                     | No
-   v                         v
-[Deploy/Report]       [Tune model/features]
-   |                         |
- (End) <---------------------+
-```
+------------------------------------------------------------------------
 
-### Correlation diagram
+## (c) Five Research Hypotheses
 
-```text
-Rainfall -----------\
-Temperature ---------\
-Soil properties ------> [Crop Yield]
-Satellite indicators -/       ^
-Historical records --/        |
-                              |
-                     Other factors/confounders
-```
+**H1:** Technological quality has a positive and statistically
+significant effect on adoption of AI-enabled Student Information
+Systems.
 
----
+-   **Independent variable:** Technological quality
+-   **Dependent variable:** System adoption
 
-# QUESTION 4: Cybersecurity Awareness in SMEs
+**H2:** Organizational readiness has a positive and statistically
+significant effect on adoption of AI-enabled Student Information
+Systems.
 
-## a. Literature review, research gap, and theory
+-   **Independent variable:** Organizational readiness
+-   **Dependent variable:** System adoption
 
-A literature review systematically examines previous studies on phishing, cybersecurity training, employee behavior, human error, and security incidents. It can identify what has already been established, such as whether training generally improves awareness, and what remains uncertain.
+**H3:** Employee digital competence has a positive and statistically
+significant effect on effective use of AI-enabled Student Information
+Systems.
 
-A research gap may be found if, for example, previous studies were conducted mainly in large organizations, measured only knowledge rather than actual behavior, or did not examine SMEs in the relevant context. The review can also establish a theoretical foundation using behavioral or technology-adoption theories, helping explain how training may influence knowledge and behavior.
+-   **Independent variable:** Digital competence
+-   **Dependent variable:** Effective system use
 
-## b. Research framework
+**H4:** Institutional and governance support has a positive and
+statistically significant effect on effective use of AI-enabled Student
+Information Systems.
 
-```text
-Cybersecurity Training
-          |
-          v
- Employee Knowledge
-          |
-          v
-  Security Behavior
-          |
-          v
- Security Incidents
+-   **Independent variable:** Institutional/governance support
+-   **Dependent variable:** Effective system use
 
-Possible controls: job role, prior experience, education, access privileges,
-organization size, baseline security maturity.
-```
+**H5:** Perceived usefulness mediates the relationship between
+technological/organizational factors and system adoption.
 
-Knowledge may act as a **mediating variable**: training may improve knowledge, which then influences behavior. Improved behavior may reduce the probability or frequency of incidents.
+-   **Independent variables:** Technological quality and organizational
+    readiness
+-   **Mediating variable:** Perceived usefulness
+-   **Dependent variable:** System adoption
 
-## c. Hypotheses
+For statistical testing, corresponding null hypotheses can be stated as:
 
-- **H₀:** The cybersecurity-awareness programme has no statistically significant effect on employee cybersecurity knowledge or security behavior.
-- **H₁:** The cybersecurity-awareness programme has a statistically significant positive effect on employee cybersecurity knowledge or security behavior.
+**H0:** There is no statistically significant relationship between the
+specified independent and dependent variables.
 
-A separate incident hypothesis may be:
+------------------------------------------------------------------------
 
-- **H₀:** The rate of security incidents does not differ before and after implementation of the programme.
-- **H₁:** The rate of security incidents is lower after implementation of the programme.
+## (d) Preliminary Conceptual Research Framework
 
-## d. Chi-square, t-test, and ANOVA
+### Independent Variables
 
-**Chi-square** is appropriate for examining association between categorical variables, such as whether employees completed training (yes/no) and whether they correctly reported a simulated phishing message (yes/no), provided assumptions regarding expected frequencies are satisfied.
+**Technological Factors**
 
-A **t-test** is appropriate for comparing the means of two groups, such as trained versus untrained employees. A paired t-test may compare the same employees' knowledge scores before and after training.
+-   System quality
+-   Data quality
+-   Interoperability
+-   Cybersecurity
+-   Technical infrastructure
 
-**ANOVA (F-test)** is appropriate for comparing means across three or more groups, such as employees receiving basic, intermediate, or intensive training. If ANOVA is significant, appropriate post-hoc tests can identify which groups differ.
+**Organizational Factors**
 
-## e. Ethical challenges and safeguards
+-   Organizational readiness
+-   Management support
+-   Staff training
+-   Resources
+-   Data governance
 
-Performance monitoring may create fear, stigma, or employment consequences. Employees may feel pressured to participate or may not understand how data from phishing simulations or security logs will be used.
+**Human Factors**
 
-Safeguards include informed participation where appropriate, clear purpose limitation, collecting only necessary variables, pseudonymizing research datasets, restricting access, reporting aggregated results, separating research findings from disciplinary processes where possible, and establishing retention and deletion schedules. Researchers should avoid deceptive testing unless ethically justified and approved, and should minimize unnecessary psychological or employment harm.
+-   Digital competence
+-   Perceived ease of use
+-   Trust
 
-## f. Flowchart and ER diagram
+**Institutional/Governance Factors**
 
-### Flowchart
+-   Policies
+-   Privacy governance
+-   Accountability
+-   Regulatory support
 
-```text
-(Start)
-   |
-[Assess baseline knowledge/behavior]
-   |
-[Deliver cybersecurity training]
-   |
-[Conduct assessment or simulation]
-   |
-[Collect authorized performance data]
-   |
-[Analyze knowledge and behavior]
-   |
-[Identify gaps]
-   |
-[Provide targeted improvement]
-   |
- (End)
-```
+### Mediating Variables
 
-### Entity-relationship diagram
+-   Perceived usefulness
+-   Trust
+-   User satisfaction
+-   Behavioural intention
 
-```text
-[EMPLOYEE] 1 ----- participates in ----- * [TRAINING_SESSION]
-    |
-    | 1
-    +------ completes ------ * [ASSESSMENT]
-                                  |
-                                  | may generate
-                                  v
-                             [SECURITY_EVENT]
+### Moderating Variables
 
-EMPLOYEE(employee_id, role, ...)
-TRAINING_SESSION(session_id, topic, date)
-ASSESSMENT(assessment_id, score, result)
-SECURITY_EVENT(event_id, type, date, severity)
-```
+-   Digital literacy
+-   Staff experience
+-   Age
+-   Organizational size
+-   Previous technology experience
 
----
+### Control Variables
 
-# QUESTION 5: Digital Health and Community Health Workers
+-   Gender
+-   Age
+-   Academic/professional position
+-   Education level
+-   Years of employment
 
-## a. Cross-sectional versus longitudinal design
+### Dependent Variables
 
-A **cross-sectional design** measures variables at one point in time. It is useful for estimating current application use, adherence, or user perceptions, but it cannot directly show how outcomes change over time.
+-   System adoption
+-   Effective system use
+-   Quality of academic decision support
 
-A **longitudinal design** follows the same patients, health workers, or facilities across multiple time points. It can measure changes in adherence and reporting after introduction of the application and is therefore generally more appropriate for evaluating an intervention over time. A longitudinal design requires more resources and must address participant loss and repeated measurements.
+### Conceptual Representation
 
-## b. Data sources and instruments
+**Technological Factors**\
+**Organizational Factors**\
+**Human Factors**\
+**Institutional/Governance Factors**
 
-### Primary data
-- Community health worker surveys.
-- Patient interviews, where ethically appropriate.
-- Direct observation.
-- Application usability questionnaires.
-- Prospectively collected adherence records.
+↓
 
-Suitable instruments include structured questionnaires, interview guides, observation checklists, and validated adherence scales.
+**Perceived Usefulness / Trust / Satisfaction**
 
-### Secondary data
-- Existing patient records.
-- Disease-surveillance databases.
-- Historical treatment and appointment records.
-- Application usage logs, if already routinely generated.
+↓
 
-Data extraction forms and secure, authorized database queries can be used to collect secondary data.
+**System Adoption**
 
-## c. Data preparation
+↓
 
-1. **Data cleaning:** remove duplicates, correct obvious data-entry errors, standardize dates and categories, and check ranges.
-2. **Missing values:** quantify missingness and investigate its pattern. Depending on the mechanism and amount, use complete-case analysis, appropriate imputation, or explicit missing categories where justified. Missing values should not be replaced automatically without analysis.
-3. **Normalization/scaling:** rescale variables when methods are sensitive to different measurement ranges, for example using min-max scaling or z-score standardization.
-4. **Validation:** apply range, type, format, consistency, and cross-field checks. Compare a sample against source records where authorized.
+**Effective System Use / Decision-Support Benefits**
 
-All transformations should be documented and reproducible.
+Moderating variables influence the **strength or direction** of
+relationships, while control variables are statistically held constant.
 
-## d. Correlation and regression
+### Theoretical justification
 
-Correlation can provide an initial estimate of association between application usage and patient adherence.
+The **Technology-Organization-Environment (TOE)** framework explains
+technological and organizational conditions affecting organizational
+adoption, while the **Technology Acceptance Model (TAM)** explains
+individual perceptions such as perceived usefulness and perceived ease
+of use.
 
-Regression can model adherence as an outcome while controlling for confounders. For example, a linear model may be used for a continuous adherence score, while logistic regression may be used when adherence is classified as adherent/non-adherent.
+Therefore, successful implementation can be understood as:
 
-A simplified model is:
+**Technology + Organization + People + Institutional/Governance
+Conditions → Adoption → Effective Use**
 
-\[
-Adherence = \beta_0 + \beta_1(AppUsage) + \beta_2(Age) + \beta_3(TravelDistance) + \cdots + \epsilon
-\]
+------------------------------------------------------------------------
 
-A statistically significant association does not by itself prove that application use causes improved adherence.
+# QUESTION TWO
 
-## e. Ethical framework
+## (a) Critical comparison of research philosophies
 
-A comprehensive framework should include:
+  ----------------------------------------------------------------------------------------
+  Dimension          Positivism      Interpretivism       Pragmatism       Critical
+                                                                           Realism
+  ------------------ --------------- -------------------- ---------------- ---------------
+  **Ontology**       Reality is      Reality is socially  Reality is       Reality exists
+                     objective and   constructed and may  approached       independently
+                     exists          have multiple        according to     but may contain
+                     independently   meanings.            practical        deeper
+                     of the                               consequences.    structures and
+                     researcher.                                           mechanisms.
 
-- **Informed consent:** explain the study purpose, data collected, risks, benefits, voluntary participation, and withdrawal procedures.
-- **Confidentiality:** restrict information access to authorized personnel and apply role-based access controls.
-- **Anonymization/pseudonymization:** remove or replace direct identifiers in research datasets; recognize that complete anonymization may be difficult.
-- **Secure storage:** encrypt sensitive information, use secure authentication, maintain backups, and log access.
-- **Data minimization and purpose limitation:** collect only data necessary for defined objectives and do not reuse it incompatibly.
-- **Responsible use:** prohibit discrimination, stigmatization, unauthorized sharing, and inappropriate automated decisions.
-- **Governance:** define accountability, retention periods, deletion procedures, breach response, ethics oversight, and compliance with applicable health and data-protection rules.
+  **Epistemology**   Knowledge is    Knowledge is         Knowledge is     Knowledge seeks
+                     obtained        developed by         judged by its    to explain
+                     through         interpreting human   usefulness in    mechanisms
+                     objective       meanings.            solving          underlying
+                     observation and                      problems.        observable
+                     measurement.                                          events.
 
----
+  **Methodology**    Mainly          Mainly qualitative.  Mixed methods    Quantitative,
+                     quantitative.                        and              qualitative or
+                                                          methodological   mixed.
+                                                          pluralism.       
 
-# QUESTION 6: Blockchain-Based Land Registration
+  **Researcher       Detached and    Interactive and      Practical        Critical
+  role**             objective.      interpretive.        problem solver.  investigator.
 
-## a. Research problem
+  **Knowledge        Generalizable   Knowledge is         Multiple forms   Observable
+  assumption**       relationships   contextual and       of knowledge may events may be
+                     and             meaning-dependent.   be useful.       generated by
+                     regularities                                          deeper
+                     can be                                                mechanisms.
+                     identified.                                           
+  ----------------------------------------------------------------------------------------
 
-A suitable research problem is:
+### Positivism
 
-> **Paper-based land-registration processes may experience delays, fragmented records, limited auditability, opportunities for unauthorized alteration, and difficulties in verifying transaction history. Although blockchain-based systems are proposed as a potential solution, there is insufficient context-specific evidence regarding whether such systems can improve registration efficiency, transparency, record integrity, and user trust without creating unacceptable legal, technical, privacy, or governance risks.**
+Positivism assumes that phenomena can be objectively measured. It is
+appropriate for testing whether variables such as perceived usefulness,
+competence or organizational readiness statistically predict AI
+adoption.
 
-The study can be narrowed to one jurisdiction, selected registration offices, a defined transaction type, or a prototype/pilot rather than evaluating nationwide implementation.
+**Strength:** Strong quantitative measurement and hypothesis testing.
 
-## b. Objectives and research questions
+**Limitation:** May fail to capture employees' lived experiences, fears
+and interpretations.
 
-### Objectives
-1. To assess inefficiencies and integrity risks in the existing land-registration process.
-2. To evaluate the potential effect of blockchain adoption on processing time, transparency, and record verification.
-3. To identify legal, technical, organizational, and user-related barriers to adoption.
+### Interpretivism
 
-### Research questions
-1. How could a blockchain-based platform affect the efficiency, transparency, and integrity of land-registration processes?
-2. What factors enable or constrain adoption of blockchain technology in land administration?
+Interpretivism focuses on how people understand and construct meaning
+around their experiences.
 
-## c. Sequential hypothesis-testing process
+It is appropriate for exploring:
 
-1. Define the research question and measurable variables.
-2. Formulate **H₀**, usually representing no effect or no difference.
-3. Formulate **H₁**, representing the expected effect or difference.
-4. Select an appropriate statistical test based on variable type, design, and assumptions.
-5. Choose a significance level, commonly \(\alpha = 0.05\).
-6. Collect and prepare the data.
-7. Calculate the test statistic and p-value or confidence interval.
-8. Compare the evidence with the decision criterion.
-9. **Reject H₀** when evidence is sufficiently inconsistent with H₀; otherwise **fail to reject H₀**. Failure to reject is not proof that H₀ is true.
-10. Interpret practical as well as statistical significance and report assumptions and limitations.
+-   algorithmic bias;
+-   job displacement;
+-   trust;
+-   privacy concerns;
+-   accountability.
 
-## d. Parametric and non-parametric tests
+**Strength:** Provides rich contextual understanding.
 
-**Parametric tests** generally rely on assumptions about the distribution or parameters of the data. Examples include t-tests, ANOVA, and Pearson correlation. They are appropriate when measurement scales and assumptions such as independence and approximate distributional conditions are adequately satisfied.
+**Limitation:** Findings are generally less statistically generalizable.
 
-**Non-parametric tests** make fewer distributional assumptions and are useful for ordinal data, highly skewed data, or small samples where parametric assumptions are not reasonable. Examples include Mann–Whitney U, Wilcoxon signed-rank, Kruskal–Wallis, Spearman correlation, and chi-square tests for categorical data.
+### Pragmatism
 
-The choice should be based on study design and diagnostics, not simply on sample size.
+Pragmatism focuses on the research problem and permits the researcher to
+use methods that best answer the research questions.
 
-## e. Legal, ethical, IP, ownership, and jurisdictional issues
+**Strength:** Particularly suitable for complex practical problems
+requiring both numerical evidence and qualitative explanations.
 
-Land records involve property rights and therefore require clear legal recognition of digital records, electronic signatures, and system outputs. Privacy concerns arise if personal or ownership information is made unnecessarily visible. Immutable storage can conflict with correction, rectification, or retention requirements.
+### Critical Realism
 
-The study must clarify **who owns and controls the data**, who may write or validate records, and who is responsible for errors. Intellectual-property issues may concern software, smart-contract code, databases, and licensing. Jurisdictional questions arise if infrastructure, nodes, cloud providers, or users operate across borders. A blockchain design does not automatically solve governance problems; legal authority, dispute resolution, correction procedures, key management, and accountability must be defined.
+Critical realism accepts that reality exists independently of human
+perception but argues that observable events may be generated by deeper
+organizational, institutional or social mechanisms.
 
----
+For example, low AI adoption may be an observable outcome caused by an
+underlying organizational culture or lack of trust.
 
-# QUESTION 7: Multigranularity Deep Learning for LULC Classification
+------------------------------------------------------------------------
 
-## a. Research problem
+## (b) Deductive, inductive and abductive approaches
 
-A suitable problem is:
+### Deductive Approach
 
-> **Conventional single-scale deep-learning approaches to Land Use and Land Cover classification may fail to represent objects and spatial patterns that occur at different scales. Fine details may be lost in coarse representations, while broad contextual information may be insufficiently captured by fine-scale models. There is therefore a need to investigate whether a multigranularity deep-learning model can improve classification of heterogeneous LULC classes in Kigali compared with an appropriate single-scale baseline.**
+Deduction moves from:
 
-## b. Objectives and research questions
+**Theory → Hypotheses → Data → Statistical Testing → Conclusion**
 
-### Objectives
-1. To develop a multigranularity deep-learning model integrating fine-, medium-, and coarse-scale spatial features.
-2. To evaluate its performance across built-up areas, agriculture, forests, wetlands, water bodies, and bare land.
-3. To compare its performance with a conventional single-scale deep-learning classifier.
+It is appropriate for testing established relationships.
 
-### Research questions
-1. Does multigranularity feature integration improve LULC classification performance compared with a single-scale model?
-2. Which LULC classes benefit most from multigranularity spatial representation?
+**Strength:** Structured and suitable for hypothesis testing.
 
-## c. Variables
+**Limitation:** May overlook unexpected findings.
 
-- **Independent variable:** classification approach or model architecture, particularly multigranularity versus single-scale representation.
-- **Dependent variables:** classification performance measures such as accuracy, precision, recall, F1-score, and IoU.
-- **Control variables:** satellite dataset, geographic extent, class definitions, training/test split, preprocessing, computational budget where possible, and evaluation procedure.
-- **Possible confounding variables:** image resolution, acquisition season, cloud contamination, class imbalance, label quality, sensor differences, terrain, and unequal spatial distribution of classes.
+### Inductive Approach
 
-## d. Hypotheses
+Induction moves from:
 
-- **H₀:** The multigranularity deep-learning model does not produce significantly better LULC classification performance than the conventional single-scale classifier.
-- **H₁:** The multigranularity deep-learning model produces significantly better LULC classification performance than the conventional single-scale classifier.
+**Observations → Patterns → Concepts → Theory**
 
-The comparison should specify the metric and unit of statistical comparison, such as repeated experimental runs or matched image tiles.
+It is appropriate where limited theory exists and the researcher wants
+to develop explanations from empirical data.
 
-## e. Performance measures
+**Strength:** Useful for exploratory research.
 
-- **Accuracy:** proportion of correctly classified observations. Overall accuracy can be misleading when classes are imbalanced.
-- **Precision:** \(TP/(TP+FP)\). It measures how many predicted positives are actually positive.
-- **Recall:** \(TP/(TP+FN)\). It measures how many actual positives are correctly detected.
-- **F1-score:** harmonic mean of precision and recall, useful when balancing both types of error.
-- **Intersection over Union (IoU):** overlap between predicted and reference regions, commonly used for segmentation:
-  \[
-  IoU = \frac{TP}{TP+FP+FN}
-  \]
-- **Confusion matrix:** a table showing actual versus predicted classes, allowing examination of which classes are commonly confused.
+**Limitation:** Generalization can be difficult.
 
-Results should preferably be reported per class as well as overall.
+### Abductive Approach
 
----
+Abduction moves iteratively between theory and empirical evidence to
+develop the **most plausible explanation** of a phenomenon.
 
-# QUESTION 8: Smart City Waste Management
+For example, statistical results may show that trust predicts AI
+adoption, while interviews may reveal that trust is affected by
+transparency, fairness and explainability.
 
-## a. Research problem
+**Recommended approach:** **Abductive reasoning is the most appropriate
+approach.**
 
-A suitable research problem is:
+The study combines established constructs with potentially unexpected
+employee experiences. Abduction allows the researcher to move between
+theoretical expectations and empirical findings.
 
-> **Conventional waste collection often relies on fixed schedules and limited real-time information, which may cause unnecessary collection trips, overflowing bins, inefficient vehicle routes, and uneven service quality. There is insufficient evidence on whether integrating IoT bin data, vehicle GPS information, mobile reporting, and predictive analytics can improve forecasting of waste-generation patterns and optimize collection operations in the selected urban context.**
+------------------------------------------------------------------------
 
-The problem is important because inefficiency can increase costs, fuel use, environmental impacts, and public-health risks.
+## (c) Research philosophy, approach and design
 
-## b. Research aim, objectives, and questions
+### Philosophy: Pragmatism
 
-### Aim
-To investigate whether an intelligent waste-management system can improve prediction of waste generation and optimization of collection operations.
+Pragmatism is appropriate because the research problem requires both:
 
-### Objectives
-1. To analyze current waste-generation and collection patterns.
-2. To collect and integrate IoT bin, GPS, mobile-application, and operational data.
-3. To develop a predictive model for waste generation or bin-fill status.
-4. To evaluate whether data-driven scheduling can reduce overflow, travel distance, delay, or operational cost.
+-   measurement of relationships; and
+-   understanding of employees' experiences.
 
-### Research questions
-1. Which factors and data features most effectively predict waste-generation or bin-fill patterns?
-2. To what extent can predictive analytics improve waste-collection scheduling compared with conventional fixed schedules?
+### Approach: Abductive
 
-## c. Data sources and instruments
+Abduction allows iterative movement between existing theory and
+empirical findings.
 
-### Primary data
-- Bin sensor readings.
-- Direct observation of overflow.
-- GPS data from collection vehicles.
-- Interviews or surveys of operators and residents.
-- Field measurements of collected waste.
+### Design: Explanatory Sequential Mixed Methods
 
-Instruments include IoT sensors, GPS devices, observation checklists, weighing equipment, questionnaires, and interview guides.
+The study can follow:
 
-### Secondary data
-- Historical collection records.
-- Municipal waste statistics.
-- Route maps.
-- Population or land-use data.
-- Weather records where relevant.
+**QUAN → qual**
 
-Database extraction tools and standardized data-collection forms can support secondary-data collection.
+First, quantitative data are collected and analyzed. Qualitative
+interviews are then used to explain important, unexpected or complex
+quantitative findings.
 
-## d. Regression and classification
+For example:
 
-Regression can predict continuous outcomes such as kilograms of waste generated or estimated fill level. Predictors may include location, day of week, season, population density, previous collection, weather, and historical patterns.
+1.  Survey employees.
+2.  Test predictors of AI adoption.
+3.  Identify significant or unexpected relationships.
+4.  Interview selected employees.
+5.  Explain the statistical findings.
+6.  Integrate both forms of evidence.
 
-Classification can predict categories such as *low*, *medium*, or *high* fill level, or whether a bin is likely to overflow before the next planned collection. Predicted priorities can then feed into route-optimization or scheduling algorithms. Models should be evaluated on data not used for training and compared with a baseline.
+------------------------------------------------------------------------
 
-## e. Ethical and practical challenges
+## (d) Methodological Alignment Matrix
 
-Location and household-related data may reveal routines, socioeconomic patterns, or service use. Municipal data may also contain commercially or operationally sensitive information.
+  -----------------------------------------------------------------------
+  Research Element                    Proposed Choice
+  ----------------------------------- -----------------------------------
+  **Research problem**                Factors influencing AI adoption and
+                                      employee concerns
 
-Mitigations include collecting only necessary location precision, aggregating household data where possible, separating identities from analytics datasets, restricting access, securing devices and APIs, defining retention periods, and informing affected users about data practices. Practical challenges include sensor failure, network outages, vandalism, incomplete data, interoperability, maintenance costs, staff training, and unequal access to mobile applications.
+  **Research objectives**             Measure adoption determinants and
+                                      understand employee experiences
 
----
+  **Research questions**              Questions concerning measurable
+                                      relationships and employee
+                                      experiences
 
-# QUESTION 9: E-Learning and Student Performance
+  **Philosophy**                      Pragmatism
 
-## a. Literature review and conceptual framework
+  **Approach**                        Abductive
 
-A literature review can synthesize evidence on LMS engagement, self-regulated learning, digital access, academic achievement, and learning analytics. It can identify inconsistent findings, under-studied contexts, limitations of previous measures, or gaps in controlling for prior academic ability.
+  **Research design**                 Explanatory sequential mixed
+                                      methods
 
-A conceptual framework could propose:
+  **Data sources**                    Employees, managers, system records
+                                      and institutional documents
 
-```text
-LMS Engagement
-(login frequency, time, submissions, discussion)
-             |
-             v
-      Learning Processes
-(self-regulation, participation, engagement)
-             |
-             v
-   Academic Performance
+  **Data collection**                 Questionnaires followed by
+                                      interviews/focus groups and
+                                      document analysis
 
-Moderators: digital access, course type, year of study
-Controls: prior performance, demographics, workload
-```
+  **Data analysis**                   Descriptive statistics,
+                                      correlation/regression/SEM and
+                                      thematic analysis
 
-The literature should justify each proposed relationship rather than treating all available variables as equally meaningful.
+  **Integration**                     Quantitative findings compared with
+                                      qualitative explanations
+  -----------------------------------------------------------------------
 
-## b. Variables
+The methodology is aligned because the **research problem requires both
+measurement and explanation**.
 
-- **Independent variable:** LMS engagement, operationalized using indicators such as logins, time on materials, submissions, and participation.
-- **Dependent variable:** academic performance, such as examination score or final grade.
-- **Mediating variable:** a mechanism through which engagement may influence performance, for example self-regulated learning or assignment completion.
-- **Moderating variable:** a factor changing the strength or direction of the relationship, for example digital access, course type, or prior digital skills.
-- **Control variables:** prior academic performance, study level, workload, attendance, or other justified baseline characteristics.
+------------------------------------------------------------------------
 
-## c. Directional and non-directional hypotheses
+# QUESTION THREE
 
-### Directional
-- **H₀:** Higher LMS engagement is not associated with higher academic performance.
-- **H₁:** Higher LMS engagement is positively associated with higher academic performance.
+## (a) Types of literature reviews
 
-### Non-directional
-- **H₀:** There is no statistically significant relationship between LMS engagement and academic performance.
-- **H₁:** There is a statistically significant relationship between LMS engagement and academic performance.
+### i. Narrative Literature Review
 
-## d. Correlation and multiple regression
+A narrative review provides a broad descriptive or thematic discussion
+of previous literature.
 
-Correlation can summarize the direction and strength of association between individual LMS measures and performance.
+**Appropriate when:** introducing a research area or developing
+background understanding.
 
-Multiple regression can examine several predictors simultaneously:
+**Limitation:** Study selection can be subjective.
 
-\[
-Performance = \beta_0 + \beta_1(Logins) + \beta_2(TimeSpent) + \beta_3(Submissions) + \beta_4(PriorPerformance) + \epsilon
-\]
+### ii. Systematic Literature Review
 
-Regression helps estimate the association of each predictor while controlling for others. Researchers should check assumptions, multicollinearity, influential observations, and the validity of interpreting LMS “time spent” as genuine learning activity.
+A systematic review uses predefined search strategies,
+inclusion/exclusion criteria and systematic procedures.
 
-## e. Bias and confounding
+**Appropriate when:** answering a focused research question using
+transparent and reproducible procedures.
 
-Possible biases include:
-- **Selection bias:** students who use the LMS more may already be more motivated.
-- **Measurement bias:** login counts may not equal meaningful engagement.
-- **Confounding:** prior ability, motivation, socioeconomic resources, internet access, and instructor quality may affect both LMS use and grades.
-- **Reverse causality:** high-performing students may engage differently because they are already succeeding.
+### iii. Scoping Review
 
-The design can reduce these problems by collecting baseline variables, using clearly defined measures, applying multivariable adjustment, using longitudinal data where possible, pre-specifying analyses, and avoiding causal claims unless the design supports them.
+A scoping review maps the breadth, nature and range of literature within
+a broad or emerging field.
 
----
+**Appropriate when:** the literature is heterogeneous or the boundaries
+of the topic are unclear.
 
-# QUESTION 10: AI-Based Healthcare Diagnosis
+### iv. Theoretical Review
 
-## a. Research problem
+A theoretical review examines and compares theories, concepts and
+theoretical explanations.
 
-A suitable research problem is:
+**Appropriate when:** identifying theoretical disagreements or selecting
+an appropriate theoretical foundation.
 
-> **AI-assisted diagnostic systems may support earlier and more consistent disease identification by integrating symptoms, laboratory results, medical images, and clinical records. However, evidence is needed to determine whether the proposed system improves diagnostic accuracy, timeliness, or clinical decision support in the intended hospital context, and whether performance is equitable, explainable, safe, and acceptable to healthcare professionals.**
+### v. Empirical Review
 
-The research gap should be made specific, for example limited validation on local patient populations, inadequate comparison with clinicians or existing diagnostic procedures, insufficient evidence about particular disease groups, or lack of evaluation of bias and clinical workflow effects.
+An empirical review evaluates findings from previous studies based on
+their data, methods, variables and results.
 
-## b. Research objectives and questions
+**Appropriate when:** assessing what empirical evidence already exists.
 
-### Objectives
-1. To develop or configure the AI diagnostic system using appropriately governed clinical data.
-2. To evaluate diagnostic accuracy and other performance measures against a defined reference standard.
-3. To compare diagnostic performance or decision support with existing clinical practice where ethically and methodologically appropriate.
-4. To assess usability, explainability, fairness, and clinician acceptance.
-5. To identify safety, ethical, and implementation risks.
+### vi. Critical Literature Review
 
-### Research questions
-1. How accurately does the AI diagnostic system identify the target disease conditions compared with an accepted reference standard?
-2. How does AI-assisted decision support affect diagnostic performance, timeliness, and clinician acceptance?
-3. Does performance differ meaningfully across relevant patient subgroups?
+A critical literature review goes beyond summarization and evaluates:
 
-## c. Quantitative, qualitative, and mixed methods
+-   theoretical assumptions;
+-   methodologies;
+-   contexts;
+-   contradictory findings;
+-   limitations;
+-   relationships among variables;
+-   unexplored issues.
 
-**Quantitative research** uses numerical measurements and statistical analysis. It is appropriate for diagnostic sensitivity, specificity, AUROC, error rates, and time-to-decision.
+**The critical literature review is most appropriate for this case.**
 
-**Qualitative research** examines experiences and meanings through interviews, observations, or open-ended responses. It is useful for understanding clinician trust, workflow fit, explainability, and perceived risks.
+------------------------------------------------------------------------
 
-**Mixed methods** combines both. It is the strongest overall choice here because a healthcare diagnostic system must be evaluated not only for numerical accuracy but also for usability, safety, trust, and implementation context.
+## (b) Critical evaluation of previous studies
 
-## d. Sampling, preprocessing, hypothesis testing, and model evaluation
+### Theory
 
-**Sampling:** Define the target patient population and eligibility criteria. Use a representative or carefully justified sampling method, and ensure independent training, validation, and test sets. Prevent data leakage, especially when multiple records or images belong to the same patient.
+The researcher should ask:
 
-**Preprocessing:** Check data quality, handle missingness appropriately, standardize formats, encode variables, normalize inputs when needed, and document transformations. Labels should be validated against an appropriate clinical reference standard.
+-   Which theory was used?
+-   Was it appropriate?
+-   Were alternative theories considered?
+-   Does the theory adequately explain the phenomenon?
 
-**Hypothesis testing:** Pre-specify hypotheses, outcomes, comparison methods, significance levels, and subgroup analyses. For example, test whether AI-assisted diagnosis has higher sensitivity or accuracy than a baseline under a defined evaluation design.
+### Methodology
 
-**Model evaluation:** Use measures suitable for the task, such as sensitivity, specificity, precision, recall, F1-score, AUROC, calibration, and confusion matrices. Evaluate external validity where possible and report confidence intervals. Clinical usefulness should also be assessed; a high statistical score does not guarantee safe real-world benefit.
+Assess:
 
-## e. Ethical implications
+-   research design;
+-   sampling;
+-   sample size;
+-   data-collection instruments;
+-   validity;
+-   reliability;
+-   analysis methods.
 
-Key issues include:
+### Context
 
-- **Informed consent and lawful governance:** determine when consent is required and ensure data use is consistent with ethical approval and applicable rules.
-- **Privacy and confidentiality:** minimize identifiable data, apply access controls, encryption, secure storage, and appropriate retention/deletion procedures.
-- **Bias and fairness:** examine whether training data underrepresent certain populations and evaluate subgroup performance to reduce unequal harm.
-- **Explainability:** provide clinicians with sufficiently understandable information about outputs, limitations, uncertainty, and appropriate use.
-- **Accountability:** clearly define responsibility for data quality, model maintenance, clinical decisions, and adverse events. AI recommendations should not obscure professional accountability.
-- **Potential harm:** false positives, false negatives, automation bias, delayed treatment, inappropriate trust, and cybersecurity failures must be assessed and mitigated.
-- **Human oversight:** deployment should include clear escalation pathways and ensure that clinicians can question or override AI recommendations when clinically justified.
-- **Monitoring:** model performance can change as patient populations, equipment, and clinical practices change; therefore, ongoing validation, auditing, incident reporting, and controlled updates are necessary.
+Compare differences in:
 
----
+-   countries;
+-   developed versus developing economies;
+-   public versus private organizations;
+-   cultural environments;
+-   institutional conditions.
 
-# Concluding Note
+### Variables
 
-Across all scenarios, a strong research design requires clear alignment among the **research problem, aim, objectives, questions, hypotheses, variables, data sources, sampling strategy, analytical methods, evaluation measures, and ethical safeguards**. Diagrams should be adapted to the exact system requirements, and statistical methods should be selected according to the type of data, study design, assumptions, and intended inference.
+Examine:
 
+-   independent variables;
+-   dependent variables;
+-   mediators;
+-   moderators;
+-   omitted variables;
+-   measurement approaches.
 
+### Findings
 
+Determine whether findings are:
 
+-   consistent;
+-   statistically significant;
+-   strong or weak;
+-   supported by adequate evidence.
 
------------
------------
+### Limitations
 
-Research Methods & System Analysis — Key Takeaways
+Identify limitations acknowledged by previous researchers and
+limitations that the researcher may have overlooked.
 
-Big picture:
-Problem → Objectives → Questions → Hypotheses → Approach → Sampling → Data Analysis → System Modelling
+### Contradictions
 
-1. Research Problem
-Key takeaway
+Identify studies that reach different conclusions.
 
-A research problem explains:
+For example, one study may find that management support strongly
+predicts adoption while another finds a weak relationship.
 
-What is wrong/unknown + why it matters + what needs to be investigated.
+### Research Gaps
 
-Remember
+The researcher should identify:
 
-Current situation → Problem → Knowledge gap → Need for research
+-   empirical gaps;
+-   theoretical gaps;
+-   methodological gaps;
+-   contextual gaps;
+-   population gaps;
+-   variable gaps.
 
-Template
+------------------------------------------------------------------------
 
-Although [current situation], [problem] remains a challenge. While [technology/intervention] may address the problem, there is limited evidence about [what is unknown]. Therefore, research is needed to investigate [what you want to study].
+## (c) Literature Review Matrix
 
-Don't confuse
-❌ Technology = not necessarily the research problem
-✅ The problem/gap surrounding the technology = research problem
-Example
+> **Note:** The following studies are hypothetical and are used for
+> examination purposes.
 
-Rural students have limited access to qualified mathematics teachers, and it is unclear whether AI tutoring improves their mathematics performance.
+  -----------------------------------------------------------------------------------------------------------------
+  Author/Year   Theory          Method        Context        Main Findings   Limitations         Research Gap
+  ------------- --------------- ------------- -------------- --------------- ------------------- ------------------
+  Smith (2021)  TAM             Survey        Western        Perceived       Developed-country   Limited evidence
+                                              healthcare     usefulness      context             from developing
+                                                             strongly                            countries
+                                                             predicts                            
+                                                             adoption                            
 
-2. Research Objectives
-Key takeaway
+  Mukasa (2022) TOE             Case study    African        Management      Small sample        Human resistance
+                                              banking        support                             insufficiently
+                                                             influences                          examined
+                                                             integration                         
 
-An objective says:
+  Patel (2023)  UTAUT           Survey        Asian          Performance     Cross-sectional     Long-term effects
+                                              e-government   expectancy                          unknown
+                                                             predicts usage                      
 
-What the researcher intends to DO.
+  Al-Rawi       DeLone & McLean Mixed methods Middle Eastern System quality  Technical focus     Governance
+  (2023)                                      healthcare     affects                             variables
+                                                             satisfaction                        overlooked
 
-Usually begins with:
+  Jones (2024)  DOI             Qualitative   European       Compatibility   Convenience         Low-resource
+                                              logistics      encourages      sampling            institutions
+                                                             adoption                            excluded
 
-To determine
-To examine
-To assess
-To investigate
-To evaluate
-To identify
-To compare
-To explore
-Formula
+  Kwame (2024)  TAM2            Survey        West African   Ease of use     Limited             Security/privacy
+                                              education      predicts LMS    cybersecurity       underexplored
+                                                             adoption        variables           
 
-To + action verb + variable/topic + context
+  Zhao (2025)   Structuration   Ethnography   East Asian     Institutional   Limited             Lack of
+                Theory                        municipality   politics        generalizability    quantitative
+                                                             influences                          measurement
+                                                             adoption                            
 
-Example
+  Nkomo (2025)  Institutional   Survey        Southern       Regulatory      Single              Interoperability
+                Theory                        African public pressure        institutional       not examined
+                                              sector         influences      context             
+                                                             compliance                          
+  -----------------------------------------------------------------------------------------------------------------
 
-To determine the effect of AI tutoring on mathematics performance.
+### Critical synthesis
 
-General vs specific objectives
+The literature suggests that technological readiness, perceived
+usefulness, organizational support, management commitment and
+institutional pressures influence digital-system adoption. However, the
+studies differ considerably in theoretical foundations, research designs
+and contexts.
 
-General objective:
+Consequently, limited evidence exists concerning how **technological,
+organizational, human, governance, cybersecurity and institutional
+factors interact simultaneously within developing-country government
+institutions**.
 
-The overall purpose of the study.
+------------------------------------------------------------------------
 
-Specific objectives:
+## (d) Research gap, problem statement and contribution
 
-Smaller measurable tasks used to achieve the general objective.
+### Research Gap
 
-Golden rule
+**There is insufficient empirical evidence explaining how technological,
+organizational, human, governance, cybersecurity and institutional
+factors interact to influence the effective integration and use of
+digital information systems in developing-country government
+institutions.**
 
-Each objective should be:
+### Research Problem Statement
 
-Clear
-Specific
-Measurable
-Relevant to the research problem
-Achievable
-3. Research Questions
-Key takeaway
+Despite substantial investment in electronic document management,
+digital identity, online licensing, electronic payments and
+citizen-service portals, citizens continue to experience duplicated data
+entry, inconsistent information, system downtime, poor interoperability
+and limited usability. This indicates that technological investment
+alone has not guaranteed successful digital transformation.
 
-A research question says:
+Existing literature provides insufficient empirical explanation of how
+technological, organizational, human, governance, cybersecurity and
+institutional factors jointly influence effective digital transformation
+in developing-country government institutions.
 
-What does the researcher want to find out?
+### Proposed Contribution
 
-The question should correspond directly to an objective.
+1.  **Theoretical contribution:** An integrated socio-technical
+    explanation of digital transformation.
+2.  **Empirical contribution:** Evidence from a developing-country
+    government context.
+3.  **Methodological contribution:** Rigorous mixed-methods evidence.
+4.  **Practical contribution:** Recommendations for interoperability,
+    governance, cybersecurity and change management.
+5.  **Policy contribution:** Evidence for public-sector
+    digital-transformation policy.
 
-Example
+------------------------------------------------------------------------
 
-Objective:
+# QUESTION FOUR
 
-To determine the effect of AI tutoring on mathematics performance.
+## (a) Critical comparison of TAM, UTAUT, TOE, DOI and DeLone & McLean
 
-Question:
+  -------------------------------------------------------------------------------------------
+  Model          Major Constructs Strengths        Limitations          Suitability
+  -------------- ---------------- ---------------- -------------------- ---------------------
+  **TAM**        Perceived        Simple,          Individual-focused   User acceptance
+                 usefulness,      parsimonious and                      
+                 perceived ease   widely tested                         
+                 of use,                                                
+                 intention, use                                         
 
-What is the effect of AI tutoring on mathematics performance?
+  **UTAUT**      Performance      Comprehensive    More complex         Organizational
+                 expectancy,      acceptance model                      technology adoption
+                 effort                                                 
+                 expectancy,                                            
+                 social                                                 
+                 influence,                                             
+                 facilitating                                           
+                 conditions                                             
 
-Common conversions
-Objective	Research question
-To determine the effect of X on Y	What is the effect of X on Y?
-To examine relationship between X and Y	What is the relationship between X and Y?
-To compare A and B	Is there a difference between A and B?
-To assess the level of X	What is the level of X?
-To identify factors influencing X	What factors influence X?
-To explore perceptions of X	What are users' perceptions of X?
-To determine whether X predicts Y	To what extent does X predict Y?
-Key rule
+  **TOE**        Technology,      Multi-level      Less attention to    Institutional
+                 organization,    organizational   individual           adoption
+                 environment      perspective      psychology           
 
-Objective = statement.
-Question = question.
+  **DOI**        Relative         Explains         Less detailed on     Innovation diffusion
+                 advantage,       diffusion of     user satisfaction    
+                 compatibility,   innovations                           
+                 complexity,                                            
+                 trialability,                                          
+                 observability                                          
 
-4. Hypotheses
-Key takeaway
+  **DeLone &     System quality,  Strong           Less emphasis on     Post-implementation
+  McLean**       information      IS-success       individual           success
+                 quality, service perspective      acceptance           
+                 quality, use,                     psychology           
+                 satisfaction,                                          
+                 net benefits                                           
+  -------------------------------------------------------------------------------------------
 
-A hypothesis is:
+### TAM
 
-A testable prediction about a relationship, effect, difference, or prediction.
+TAM proposes that perceived usefulness and perceived ease of use
+influence behavioural intention and ultimately actual system use.
 
-You normally derive it from your research question/objective.
+**Strength:** Simple and highly testable.
 
-Two main hypotheses
+**Limitation:** Gives limited attention to organizational and
+environmental conditions.
 
-H₀ = Null hypothesis
+### UTAUT
 
-No significant effect/relationship/difference.
+UTAUT incorporates:
 
-H₁ = Alternative hypothesis
+-   performance expectancy;
+-   effort expectancy;
+-   social influence;
+-   facilitating conditions.
 
-Significant effect/relationship/difference exists.
+It is stronger than TAM for organizational settings.
 
-Example
+### TOE
 
-Research question:
+TOE explains organizational technology adoption through:
 
-What is the effect of AI tutoring on mathematics performance?
+-   technological conditions;
+-   organizational conditions;
+-   environmental conditions.
 
-H₀:
+It is particularly useful when institutional readiness and external
+pressures are important.
 
-AI tutoring has no statistically significant effect on mathematics performance.
+### DOI
 
-H₁:
+DOI explains how innovations spread through characteristics such as
+compatibility, relative advantage and complexity.
 
-AI tutoring has a statistically significant effect on mathematics performance.
+### DeLone & McLean
 
-Remember
+The model evaluates whether an information system is successful through
+system quality, information quality, service quality, use, satisfaction
+and net benefits.
 
-H₀ = Nothing significant is happening.
+------------------------------------------------------------------------
 
-H₁ = Something significant is happening.
+## (b) Theoretical framework, conceptual framework, research model and analytical model
 
-5. Hypothesis Types
-Effect
+### Theoretical Framework
 
-RQ:
+The theoretical framework is the established theory or theories that
+provide the intellectual foundation for explaining the research
+phenomenon.
 
-What is the effect of X on Y?
+### Conceptual Framework
 
-H₀:
+The conceptual framework is the researcher's logical representation of
+the constructs and expected relationships selected for the particular
+study.
 
-X has no significant effect on Y.
+### Research Model
 
-H₁:
+The research model specifies the exact variables and hypothesized
+relationships that will be empirically tested.
 
-X has a significant effect on Y.
+### Analytical Model
 
-Relationship
+The analytical model translates those relationships into mathematical or
+statistical form.
 
-RQ:
+For example:
 
-What is the relationship between X and Y?
+**System Use = β₀ + β₁ System Quality + β₂ Usefulness + β₃
+Organizational Support + ε**
 
-H₀:
+Therefore:
 
-There is no significant relationship between X and Y.
+**Theory = Explanation**
 
-H₁:
+**Conceptual framework = Proposed relationships**
 
-There is a significant relationship between X and Y.
+**Research model = Testable relationships**
 
-Difference
+**Analytical model = Statistical representation**
 
-RQ:
+------------------------------------------------------------------------
 
-Is there a difference between Group A and Group B?
+## (c) Theoretical foundation and conceptual framework
 
-H₀:
+### Recommended theoretical foundation: UTAUT
 
-There is no significant difference.
+UTAUT is appropriate because healthcare professionals' technology use
+may depend on:
 
-H₁:
+-   performance expectancy;
+-   effort expectancy;
+-   social influence;
+-   facilitating conditions.
 
-There is a significant difference.
+DeLone and McLean constructs such as system quality and information
+quality can be incorporated where theoretically justified.
 
-Prediction
+### Independent Variables
 
-RQ:
+-   System quality
+-   Information quality
+-   Organizational support
+-   Technical infrastructure
+-   Performance expectancy
+-   Effort expectancy
 
-To what extent does X predict Y?
+### Mediating Variables
 
-H₀:
+-   Behavioural intention
+-   User satisfaction
+-   Trust
 
-X does not significantly predict Y.
+### Dependent Variables
 
-H₁:
+-   Actual system adoption/use
+-   Information-system success
 
-X significantly predicts Y.
+### Moderating Variables
 
-6. Research Approach
-Key takeaway
+-   Age
+-   Experience
+-   Digital competence
+-   Professional role
 
-Research approach asks:
+### Control Variables
 
-What type of evidence do I need to answer my research problem?
+-   Gender
+-   Education
+-   Years of experience
+-   Type of healthcare facility
 
-There are three main approaches.
+### Framework
 
-Quantitative
+**System Quality**
 
-Numbers + measurement + statistics
+**Information Quality**
 
-Use when you want to:
+**Organizational Support**
 
-Measure
-Compare
-Test relationships
-Test effects
-Predict
-Test hypotheses
-Think:
+**Performance Expectancy**
 
-How much? How many? How strong? Does X affect Y?
+**Effort Expectancy**
 
-Qualitative
+↓
 
-Words + experiences + meanings
+**Trust / Satisfaction / Behavioural Intention**
 
-Use when you want to understand:
+↓
 
-Experiences
-Perceptions
-Opinions
-Feelings
-Challenges
-Motivations
-Why/how something happens
-Think:
+**Actual System Use**
 
-Why? How? What do people experience?
+↓
 
-Mixed Methods
+**Information-System Success**
 
-Quantitative + qualitative
+------------------------------------------------------------------------
 
-Use when you need both:
+## (d) Five testable hypotheses
 
-“Does it work?” + “Why/how does it work?”
+**H1:** Perceived usefulness/performance expectancy positively and
+significantly influences healthcare professionals' intention to use the
+electronic health information system.
 
-Example
+**H2:** Perceived ease of use/effort expectancy positively and
+significantly influences behavioural intention to use the system.
 
-AI tutoring:
+**H3:** System quality positively and significantly influences user
+satisfaction.
 
-Pre/post-test → quantitative
-Student interviews → qualitative
-Both → mixed methods
-7. Research Approach vs Research Design
+**H4:** Organizational support positively and significantly influences
+actual system use.
 
-Don't confuse these.
+**H5:** User satisfaction positively and significantly influences
+information-system success.
 
-Research approach
+### Empirical testing
 
-How broadly will you investigate?
+The hypotheses may be tested using:
 
-Quantitative
-Qualitative
-Mixed methods
-Research design
+-   Pearson correlation for preliminary relationships;
+-   multiple regression for direct relationships;
+-   SEM for simultaneous direct, indirect and mediation relationships.
 
-What specific structure will you use?
+A hypothesis is supported when the estimated relationship is
+statistically significant and occurs in the predicted direction.
+
+------------------------------------------------------------------------
+
+# QUESTION FIVE
+
+## (a) Key measurement concepts
+
+### Concept
+
+A **concept** is a broad abstract idea.
+
+**Example:** cybersecurity awareness.
+
+### Construct
+
+A **construct** is a theoretically defined concept developed for
+scientific investigation.
+
+**Example:** employee cybersecurity awareness.
+
+### Variable
+
+A **variable** is a measurable characteristic that can take different
+values.
+
+**Example:** cybersecurity awareness score.
+
+### Dimension
+
+A **dimension** is a major component of a multidimensional construct.
+
+**Example:** phishing awareness, password security and data-protection
+awareness.
+
+### Indicator
+
+An **indicator** is an observable measure used to represent a construct
+or dimension.
+
+**Example:** ability to identify a phishing email.
+
+### Operational Definition
+
+An **operational definition** specifies exactly how a construct will be
+measured in the study.
+
+**Example:** Cybersecurity awareness is operationalized as the mean
+score obtained from items measuring employees' knowledge and recognition
+of common cybersecurity threats.
+
+### Measurement Scale
+
+A measurement scale specifies how observations are classified or
+quantified.
+
+The four classical levels are:
+
+-   nominal;
+-   ordinal;
+-   interval;
+-   ratio.
+
+A five-point Likert response is formally **ordinal**, although composite
+Likert scales are often treated as approximately interval for many
+statistical analyses when assumptions are reasonable.
+
+### Questionnaire Item
+
+A questionnaire item is an individual question or statement used to
+obtain empirical information from respondents.
+
+**Example:** "I can identify common phishing emails."
+
+------------------------------------------------------------------------
+
+## (b) Operationalization table
+
+  --------------------------------------------------------------------------------
+  Construct        Dimension       Indicator      Measurement    Sample Item
+                                                  Scale          
+  ---------------- --------------- -------------- -------------- -----------------
+  Cybersecurity    Threat          Ability to     5-point Likert I can identify
+  awareness        recognition     identify                      common phishing
+                                   phishing                      attempts.
+
+  Cybersecurity    Security        Password       5-point Likert I understand the
+  awareness        knowledge       security                      characteristics
+                                                                 of a strong
+                                                                 password.
+
+  Perceived threat Severity        Perceived      5-point Likert A cybersecurity
+                                   seriousness of                incident could
+                                   cyber                         seriously affect
+                                   incidents                     my organization.
+
+  Self-efficacy    Confidence      Ability to     5-point Likert I am confident
+                                   respond to                    that I can
+                                   threats                       respond correctly
+                                                                 to a suspicious
+                                                                 email.
+
+  Organizational   Institutional   Availability   5-point Likert My organization
+  support          support         of guidance                   provides adequate
+                                   and resources                 cybersecurity
+                                                                 guidance.
+
+  Cybersecurity    Training        Relevance and  5-point Likert The cybersecurity
+  training         quality         frequency                     training provided
+                                                                 is relevant to my
+                                                                 work.
+
+  Management       Leadership      Visible        5-point Likert Senior management
+  commitment       support         management                    demonstrates
+                                   commitment                    commitment to
+                                                                 cybersecurity.
+
+  Employee         Policy          Following      5-point Likert I follow
+  compliance       adherence       security                      organizational
+                                   policies                      cybersecurity
+                                                                 policies when
+                                                                 using
+                                                                 institutional
+                                                                 systems.
+  --------------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+## (c) Ten Likert-scale questionnaire items
+
+### Response options
+
+1 = Strongly Disagree\
+2 = Disagree\
+3 = Neutral\
+4 = Agree\
+5 = Strongly Agree
+
+### Cybersecurity Awareness
+
+1.  I can identify common phishing emails.
+2.  I understand the risks associated with using weak passwords.
+3.  I know how to report a suspected cybersecurity incident.
+4.  I understand why confidential organizational information must be
+    protected.
+5.  I can recognize suspicious links or attachments in electronic
+    messages.
+
+### Employee Compliance
+
+6.  I follow the organization's cybersecurity policies when using
+    institutional systems.
+7.  I use passwords that comply with organizational security
+    requirements.
+8.  I avoid installing unauthorized software on institutional devices.
+9.  I access confidential information only when I have legitimate
+    authorization.
+10. I report cybersecurity incidents or suspicious activities to the
+    appropriate authority.
+
+------------------------------------------------------------------------
+
+## (d) Validity and reliability
+
+### Content Validity
+
+Experts review the questionnaire to determine whether the items
+adequately represent all important dimensions of the construct.
+
+### Construct Validity
+
+Construct validity examines whether the instrument actually measures the
+theoretical constructs it claims to measure.
+
+It may be assessed using:
+
+-   Exploratory Factor Analysis (EFA);
+-   Confirmatory Factor Analysis (CFA);
+-   factor loadings.
+
+### Convergent Validity
+
+Convergent validity exists when indicators designed to measure the same
+construct demonstrate strong relationships.
+
+Evidence can include:
+
+-   adequate factor loadings;
+-   AVE ≥ 0.50.
+
+### Discriminant Validity
+
+Discriminant validity shows that conceptually different constructs are
+sufficiently distinct.
+
+It may be assessed using:
+
+-   Fornell--Larcker criterion;
+-   HTMT;
+-   cross-loadings.
+
+### Reliability
+
+Reliability refers to the consistency of measurement.
+
+### Cronbach's Alpha
+
+Cronbach's alpha assesses internal consistency among items measuring the
+same construct.
+
+A commonly used benchmark is:
+
+**α ≥ 0.70**
+
+although interpretation should consider the number of items and
+dimensionality of the scale.
+
+### Pilot Testing
+
+A pilot study should be conducted with participants similar to the
+target population.
+
+The researcher should examine:
+
+-   clarity;
+-   completion time;
+-   ambiguous wording;
+-   missing response options;
+-   technical problems;
+-   preliminary reliability.
+
+The instrument should then be revised before the main study.
+
+------------------------------------------------------------------------
+
+# QUESTION SIX
+
+## (a) Probability and non-probability sampling techniques
+
+### Probability Sampling
+
+In probability sampling, each eligible population member has a known,
+non-zero probability of selection.
+
+#### Simple Random Sampling
+
+Every population member has an equal chance of selection.
+
+**Advantage:** Reduces selection bias.
+
+**Limitation:** Requires a complete sampling frame.
+
+#### Systematic Sampling
+
+Every kth member is selected after a random starting point.
+
+**Advantage:** Efficient for large populations.
+
+**Limitation:** Periodicity in the sampling frame can create bias.
+
+#### Stratified Sampling
+
+The population is divided into meaningful subgroups and samples are
+drawn from each.
+
+**Advantage:** Ensures representation of important subgroups.
+
+**Limitation:** Requires accurate information about strata.
+
+#### Cluster Sampling
+
+The population is divided into natural groups such as districts or
+branches, after which clusters are sampled.
+
+**Advantage:** Reduces geographical and administrative costs.
+
+**Limitation:** Can have greater sampling error than simple random
+sampling.
+
+### Non-Probability Sampling
+
+In non-probability sampling, selection probabilities are unknown.
+
+#### Purposive Sampling
+
+Participants are selected because they possess relevant characteristics.
+
+**Advantage:** Useful for specialized populations.
+
+**Limitation:** Limited generalizability.
+
+#### Convenience Sampling
+
+Participants are selected because they are easily accessible.
+
+**Advantage:** Cheap and fast.
+
+**Limitation:** High risk of selection bias.
+
+#### Quota Sampling
+
+The researcher establishes subgroup quotas but selects participants
+non-randomly within them.
+
+**Advantage:** Ensures subgroup representation.
+
+**Limitation:** Does not provide the same statistical basis for
+inference as probability sampling.
+
+------------------------------------------------------------------------
+
+## (b) Recommended sampling strategy
+
+The most appropriate strategy is:
+
+**Stratified probability sampling, with random selection within
+strata.**
+
+The 500,000 users can be stratified by:
+
+-   urban/rural location;
+-   geographic region;
+-   age group;
+-   digital literacy;
+-   frequency of platform use.
+
+Random sampling can then be conducted within each stratum.
+
+If geographical dispersion creates logistical difficulties, a
+**multistage sampling strategy** can be used:
+
+**Region → District/cluster → Users → Random selection**
+
+This strategy improves representativeness while reducing administrative
+costs.
+
+------------------------------------------------------------------------
+
+## (c) Sample size determination
+
+For a large population, Cochran's formula can be used:
+
+**n₀ = Z²pq / e²**
+
+Assumptions:
+
+-   confidence level = 95%;
+-   Z = 1.96;
+-   p = 0.50;
+-   q = 0.50;
+-   margin of error e = 0.05.
+
+Therefore:
+
+**n₀ = (1.96)²(0.5)(0.5) / (0.05)²**
+
+**n₀ ≈ 384**
+
+Because the population is finite:
+
+**n = n₀ / \[1 + (n₀ − 1)/N\]**
+
+For **N = 500,000**:
+
+**n ≈ 384**
+
+Therefore:
+
+**Minimum required completed sample ≈ 384 respondents.**
+
+If a 20% non-response rate is expected:
+
+**n_adjusted = 384 / 0.80 = 480**
+
+Therefore, the researcher could target approximately:
+
+**480 respondents to obtain approximately 384 usable responses.**
+
+------------------------------------------------------------------------
+
+## (d) Threats to sampling validity
+
+### Sampling Error
+
+Difference between the sample estimate and the true population value
+resulting from studying only a sample.
+
+### Non-Response Bias
+
+Occurs when respondents differ systematically from non-respondents.
+
+### Selection Bias
+
+Occurs when some population members have an unequal or inappropriate
+chance of selection.
+
+### Representativeness
+
+The sample should adequately reflect important characteristics of the
+500,000 users.
+
+### Inclusion Criteria
+
+For example:
+
+-   registered platform user;
+-   active user;
+-   has used the service for a defined minimum period;
+-   able to provide informed consent.
+
+### Exclusion Criteria
+
+For example:
+
+-   duplicate accounts;
+-   test accounts;
+-   inactive or invalid accounts;
+-   individuals unable to provide informed consent.
+
+------------------------------------------------------------------------
+
+# QUESTION SEVEN
+
+## (a) Comparison of data sources
+
+  --------------------------------------------------------------------------------------
+  Data Source         Strength                   Limitation            Appropriate Use
+  ------------------- -------------------------- --------------------- -----------------
+  **Questionnaire**   Efficient and quantifiable Self-report bias      Measuring
+                                                                       perceptions and
+                                                                       relationships
+
+  **Interview**       Rich and detailed          Time-consuming        Understanding
+                      information                                      experiences
+
+  **Focus Group**     Generates interaction and  Group                 Exploring shared
+                      diverse views              pressure/groupthink   perceptions
+
+  **Observation**     Captures actual behaviour  Hawthorne effect      Studying actual
+                                                                       LMS use
+
+  **System Logs**     Objective behavioural data Limited contextual    Measuring actual
+                                                 explanation           usage
+
+  **Document          Provides                   Documents may be      Policies and
+  Analysis**          institutional/historical   incomplete            implementation
+                      evidence                                         history
+  --------------------------------------------------------------------------------------
+
+Using several sources enables **data triangulation**, which can
+strengthen credibility.
+
+------------------------------------------------------------------------
+
+## (b) Research questionnaire
+
+### Section A: Demographic Variables
+
+1.  Age
+2.  Gender
+3.  Role: Student/Lecturer
+4.  Faculty/School
+5.  Years of experience
+6.  Previous LMS experience
+7.  Digital literacy level
+
+### Section B: Independent Variables
+
+#### Perceived Usefulness
+
+-   The LMS improves my academic/work performance.
+-   The LMS helps me complete tasks more efficiently.
+
+#### Perceived Ease of Use
+
+-   Learning to use the LMS is easy for me.
+-   I find the LMS easy to navigate.
+
+#### System Quality
+
+-   The LMS responds quickly.
+-   The LMS is reliable.
+
+#### Organizational Support
+
+-   The institution provides adequate LMS training.
+-   Technical support is available when needed.
+
+#### Trust
+
+-   I trust the LMS to protect my information.
+-   I trust the information provided through the LMS.
+
+### Section C: Dependent Variables
+
+#### LMS Adoption/Use
+
+-   I use the LMS regularly.
+-   I use several LMS functions.
+-   I intend to continue using the LMS.
+
+### Measurement
+
+Most perception constructs can be measured using:
+
+**5-point Likert scale: 1 = Strongly Disagree to 5 = Strongly Agree.**
+
+------------------------------------------------------------------------
+
+## (c) Advanced open-ended interview questions
+
+1.  How has the introduction of the LMS changed your teaching or
+    learning activities?
+2.  What factors encourage you to use the LMS, and what factors
+    discourage you?
+3.  Can you describe an occasion when the LMS was particularly useful or
+    difficult to use?
+4.  How does system reliability affect your willingness to use the LMS?
+5.  How adequate is the training provided by the institution?
+6.  How does your previous experience with technology influence your LMS
+    use?
+7.  What concerns do you have regarding privacy and security of
+    information stored in the LMS?
+8.  How do colleagues, lecturers, students or university management
+    influence LMS adoption?
+9.  Which LMS features would you change to improve adoption?
+10. What recommendations would you give university management to
+    increase effective LMS use?
+
+------------------------------------------------------------------------
+
+## (d) Research procedures
+
+### Pilot Testing
+
+Test the instruments with a small group similar to the target population
+and identify unclear or problematic questions.
+
+### Informed Consent
+
+Participants should receive information about:
+
+-   study purpose;
+-   procedures;
+-   risks;
+-   benefits;
+-   voluntary participation;
+-   right to withdraw;
+-   data use.
+
+### Confidentiality
+
+Participant information should only be accessible to authorized members
+of the research team.
+
+### Anonymity
+
+Where possible, names should not be collected. Codes can be used
+instead.
+
+### Data Protection
+
+The researcher should:
+
+-   encrypt sensitive data;
+-   use password protection;
+-   restrict access;
+-   securely store recordings;
+-   minimize collection of unnecessary personal data;
+-   establish appropriate retention and deletion procedures.
+
+### Instrument Refinement
+
+Pilot findings should be used to:
+
+-   remove ambiguity;
+-   improve wording;
+-   remove redundant questions;
+-   add missing options;
+-   improve interview prompts.
+
+### Ethical Approval
+
+The researcher should obtain approval from the relevant university
+research ethics committee before collecting data.
+
+------------------------------------------------------------------------
+
+# QUESTION EIGHT
+
+## (a) Descriptive and inferential statistics
+
+### Descriptive Statistics
+
+Descriptive statistics summarize the characteristics of observed data.
 
 Examples:
 
-Experimental
-Quasi-experimental
-Correlational
-Survey
-Case study
-Descriptive
-Example
+-   frequencies;
+-   percentages;
+-   means;
+-   medians;
+-   standard deviations;
+-   minimum and maximum.
 
-Approach: Quantitative
-Design: Quasi-experimental
+They answer:
 
-8. Sampling
-Key takeaway
+**What does the sample look like?**
 
-Sampling asks:
+### Inferential Statistics
 
-Who will participate, and how will I select them?
+Inferential statistics use sample data to make estimates, test
+hypotheses or draw conclusions about a wider population.
 
-Important terms
+Examples include:
 
-Population
+-   correlation;
+-   t-tests;
+-   ANOVA;
+-   regression;
+-   SEM.
 
-Everyone you want to study.
+They answer:
 
-Sample
+**What relationships, differences or effects can reasonably be inferred
+beyond the sample?**
 
-The smaller group you actually study.
+------------------------------------------------------------------------
 
-Sampling strategy
+## (b) Statistical techniques
 
-The method used to select the sample.
+### i. Correlation
 
-9. Probability Sampling
+Correlation measures the direction and strength of association between
+variables.
 
-Everyone has a known chance of selection.
+Pearson's **r** ranges from:
 
-Usually useful for quantitative research.
+**−1 ≤ r ≤ +1**
 
-Simple Random
+#### Assumptions
 
-Everyone has an equal chance.
+-   approximately continuous variables;
+-   linear relationship;
+-   independence;
+-   no influential extreme outliers.
 
-Think: random selection.
+#### Application
 
-Systematic
+Relationship between system quality and user satisfaction.
 
-Select every kth person.
+#### Limitation
 
-Example:
+**Correlation does not by itself establish causation.**
 
-Every 10th student.
+### ii. t-Test
 
-Think: fixed interval.
+A t-test compares means.
 
-Stratified
+#### Independent-Samples t-Test
 
-Divide population into groups and sample from each group.
+Compares two independent groups.
 
-Example:
+**Example:** Compare system satisfaction between two employee groups.
 
-Sample students from every year of study.
+#### Paired-Samples t-Test
 
-Think:
+Compares two measurements from the same participants.
 
-EVERY GROUP
+**Example:** Compare compliance before and after cybersecurity training.
 
-Cluster
+#### Limitations
 
-Divide into natural groups and select some groups.
+It is primarily designed for two-group mean comparisons and relies on
+assumptions concerning independence and distribution.
 
-Example:
+### iii. ANOVA
 
-Select 10 schools and study students within those schools.
+ANOVA compares mean differences across three or more groups.
 
-Think:
+**Example:** Compare system satisfaction across three levels of employee
+experience.
 
-SOME GROUPS
+If the omnibus ANOVA is significant, appropriate post-hoc tests can
+determine which groups differ.
 
-Multistage
+#### Assumptions
 
-Sampling occurs through several levels.
+-   independence;
+-   approximate normality;
+-   homogeneity of variance.
 
-Example:
+### iv. Multiple Regression
 
-District → School → Student
+Multiple regression examines how several predictors are associated with
+one dependent variable.
 
-Think:
+For example:
 
-Several stages
+**Usage = β₀ + β₁SQ + β₂IQ + β₃PU + β₄OS + ε**
 
-10. Non-Probability Sampling
+where:
 
-Not everyone has a known/equal chance.
+-   SQ = system quality;
+-   IQ = information quality;
+-   PU = perceived usefulness;
+-   OS = organizational support.
 
-Purposive
+#### Strength
 
-Deliberately select people with relevant knowledge/experience.
+It estimates:
 
-Think:
+-   direction;
+-   magnitude;
+-   statistical significance;
+-   relative contribution.
 
-Specific people
+#### Limitations
 
-Example:
+Potential problems include:
 
-CHWs who have used a mobile health application.
+-   multicollinearity;
+-   omitted variables;
+-   influential observations;
+-   model misspecification.
 
-Convenience
+### v. Structural Equation Modelling
 
-Select whoever is easiest to access.
+SEM allows the researcher to examine multiple relationships
+simultaneously, particularly when variables are **latent constructs
+measured through multiple indicators**.
 
-Think:
+SEM can test:
 
-Easy to reach
+-   direct effects;
+-   indirect effects;
+-   mediation;
+-   measurement models;
+-   structural models.
 
-Snowball
+**Limitation:** SEM requires adequate sample size, valid measurement
+instruments and a theoretically justified model.
 
-Participants recommend other participants.
+------------------------------------------------------------------------
 
-Think:
+## (c) Quantitative data-analysis plan
 
-Participant → participant → participant
+  -----------------------------------------------------------------------
+  Research                Variables               Statistical Technique
+  Question/Hypothesis                             
+  ----------------------- ----------------------- -----------------------
+  Describe respondent     Demographic variables   Frequencies and
+  characteristics                                 percentages
 
-Quota
+  Describe major          All constructs          Mean and standard
+  constructs                                      deviation
 
-Recruit until predetermined subgroup numbers are reached.
+  Relationship between    SQ → Satisfaction       Pearson correlation
+  system quality and                              
+  satisfaction                                    
 
-Example:
+  Difference between two  Group → Satisfaction    Independent-samples
+  groups                                          t-test
 
-50 males + 50 females.
+  Difference among three  Group → Satisfaction    One-way ANOVA
+  or more groups                                  
 
-11. Sampling Cheat Sheet
-Situation	Strategy
-Equal chance	Simple random
-Every kth person	Systematic
-People from every subgroup	Stratified
-Select whole groups	Cluster
-Several sampling levels	Multistage
-Specific experience needed	Purposive
-Easiest people to reach	Convenience
-Participants recruit others	Snowball
-Fill subgroup targets	Quota
-Most important distinction
+  Predict system usage    Multiple IVs → Usage    Multiple regression
 
-Stratified = sample FROM every group.
+  Test complex            Latent constructs       SEM
+  theoretical                                     
+  relationships                                   
 
-Cluster = select SOME groups.
+  Test mediation          IV → Mediator → DV      Mediation/SEM
 
-12. Correlation
-Key takeaway
+  Test moderation         IV × Moderator → DV     Interaction
+                                                  regression/SEM
+  -----------------------------------------------------------------------
 
-Correlation asks:
+Before inferential analysis, the researcher should inspect:
 
-Are X and Y related?
+-   missing values;
+-   outliers;
+-   normality;
+-   multicollinearity;
+-   reliability;
+-   validity.
 
-Example:
+------------------------------------------------------------------------
 
-Is LMS engagement related to academic performance?
+## (d) Interpretation of statistical results
 
-Correlation coefficient
+### p-value
 
-Usually r.
+The p-value indicates the probability of observing data at least as
+inconsistent with the null hypothesis as the observed result, assuming
+the statistical model and null hypothesis are true.
 
-Range:
+A commonly used threshold is:
 
--1 to +1
+**p \< 0.05**
 
-+1 = perfect positive relationship
-0 = no linear relationship
--1 = perfect negative relationship
-Remember
+However, a p-value alone does not show the importance or size of an
+effect.
 
-Correlation = CONNECTION
+### Confidence Interval
 
-Very important
+A confidence interval provides a range of plausible values for a
+population parameter under the specified statistical procedure.
 
-Correlation does not automatically mean causation.
+A narrower interval generally indicates greater precision.
 
-If X and Y are correlated, it does not prove X caused Y.
+### Effect Size
 
-13. Regression
-Key takeaway
+Effect size indicates the magnitude or practical strength of an observed
+difference or relationship.
 
-Regression asks:
+### R²
 
-Can X be used to predict Y?
+R² represents the proportion of variance in the dependent variable
+explained by the predictors in a regression model.
 
-Example:
+For example:
 
-Can LMS engagement predict examination performance?
+**R² = 0.60**
 
-Basic equation:
+means that approximately 60% of the variance in the dependent variable
+is explained by the predictors included in the model.
 
-Y = b₀ + b₁X
+### Regression Coefficients
 
-Where:
+A regression coefficient indicates the expected change in the dependent
+variable associated with a one-unit change in a predictor, holding other
+predictors constant.
 
-Y = outcome
-X = predictor
-b₀ = intercept
-b₁ = coefficient/slope
-Remember
+### Statistical Significance
 
-Regression = PREDICTION
+Statistical significance indicates whether the evidence is sufficiently
+inconsistent with the null hypothesis at the selected significance
+level.
 
-14. Correlation vs Regression
-Correlation	Regression
-Relationship	Prediction
-X ↔ Y	X → Y
-Measures association	Models/predicts outcome
-Uses correlation coefficient	Uses regression equation/coefficients
-Memory
+A strong researcher should report:
 
-Correlation = Are they connected?
+**p-value + confidence interval + effect size + substantive
+interpretation.**
 
-Regression = Can X predict Y?
+------------------------------------------------------------------------
 
-15. Classification
-Key takeaway
+# QUESTION NINE
 
-Classification predicts a:
+## (a) Comparison of qualitative research designs
 
-CATEGORY / CLASS
+  ------------------------------------------------------------------------------------
+  Design              Main Focus     Strength        Limitation       Suitability
+  ------------------- -------------- --------------- ---------------- ----------------
+  **Phenomenology**   Lived          Deep            Narrow           Useful for
+                      experiences    understanding   phenomenon       employee
+                                     of experience                    experiences
 
-Examples:
+  **Grounded Theory** Theory         Generates       Time-intensive   Suitable when
+                      development    explanatory                      developing new
+                                     theory                           theory
 
-Disease / No disease
-Phishing / Legitimate
-Pass / Fail
-Forest / Agriculture / Water
-At-risk / Not at-risk
-Remember
+  **Ethnography**     Culture and    Deep cultural   Requires         Suitable for
+                      practices      understanding   prolonged        organizational
+                                                     immersion        culture
 
-Classification = CATEGORY
+  **Case Study**      Bounded        Context-rich    Limited          **Most
+                      real-world     investigation   statistical      appropriate**
+                      case                           generalization   
 
-Compare
-Technique	Predicts
-Regression	Number
-Classification	Category
+  **Narrative         Individual     Rich personal   Less suitable    Useful for
+  Research**          stories        accounts        for system-level personal
+                                                     analysis         histories
 
-Example:
+  **Action Research** Change through Produces        Researcher       Suitable where
+                      intervention   practical       intervention     change is part
+                                     improvement     affects context  of research
+  ------------------------------------------------------------------------------------
 
-Crop yield = 3.5 tonnes → Regression
+### Recommended design: Case Study
 
-Crop type = Maize → Classification
+A **case study design** is most appropriate because the study seeks to
+understand employee resistance within a particular government
+organization and its real organizational context.
 
-16. Classification Algorithms
+It can combine:
 
-Common examples:
+-   interviews;
+-   focus groups;
+-   document analysis;
+-   observation.
 
-Decision Tree
+If the researcher actively intervenes to change the organization, action
+research may also be appropriate.
 
-Makes decisions through rules.
+------------------------------------------------------------------------
 
-If attendance < 50% → At risk.
+## (b) Semi-structured interview guide
 
-K-Nearest Neighbors (KNN)
+1.  How would you describe your overall experience with the new
+    integrated information system?
+2.  What were your expectations when the system was introduced?
+3.  Why do you or your colleagues continue using manual procedures or
+    unofficial spreadsheets?
+4.  How would you describe the usability of the new system?
+5.  How adequate was the training provided before and after
+    implementation?
+6.  How has the system affected your workload and daily
+    responsibilities?
+7.  What concerns, if any, do you have about job security following
+    system automation?
+8.  How does organizational culture influence employees' willingness to
+    use the system?
+9.  How do leadership practices affect system acceptance or resistance?
+10. How has your previous technology experience affected your use of the
+    system?
+11. How effective has management's communication about the system been?
+12. What changes would you recommend to reduce employee resistance?
 
-Looks at similar/nearby examples and uses their classes.
+------------------------------------------------------------------------
 
-Logistic Regression
+## (c) Major stages of thematic analysis
 
-Despite its name, it is often used for:
+### 1. Data Familiarization
 
-Classification, especially binary outcomes.
+The researcher reads transcripts repeatedly and listens to recordings to
+understand the dataset.
 
-17. Classification Evaluation
+### 2. Initial Coding
 
-A common tool is the confusion matrix.
+Relevant portions of data are assigned meaningful codes.
 
-	Actual Positive	Actual Negative
-Predicted Positive	TP	FP
-Predicted Negative	FN	TN
-Remember
-TP = correctly predicted positive
-TN = correctly predicted negative
-FP = false alarm
-FN = missed positive
+**Example participant statement:**\
+"Nobody explained how the system works."
 
-Important metrics:
+**Code:**\
+**Inadequate training**
 
-Accuracy = overall correctness
-Precision = correctness of positive predictions
-Recall = how many actual positives were found
-18. Context Diagram
-Key takeaway
+### 3. Categorization
 
-A context diagram shows:
+Similar codes are grouped.
 
-Who/what interacts with the entire system?
+For example:
 
-It gives the big picture.
+-   inadequate training;
+-   lack of technical support;
+-   unclear instructions.
 
-Example:
+can form:
 
-Student ───────→
-               │
-Teacher ───────→ AI TUTORING SYSTEM
-               │
-Admin ─────────→
+**Insufficient implementation support**
 
-Important
+### 4. Theme Development
 
-The system is normally treated as one single process.
+Categories are developed into broader themes such as:
 
-Remember:
+-   inadequate training;
+-   fear of job insecurity;
+-   organizational culture;
+-   leadership communication;
+-   system usability.
 
-Context = SYSTEM + EXTERNAL INTERACTIONS
+### 5. Theme Review
 
-19. DFD
+The researcher checks whether themes are:
 
-DFD = Data Flow Diagram
+-   internally coherent;
+-   distinct from one another;
+-   supported by the data;
+-   relevant to research questions.
 
-Key takeaway
+### 6. Theme Definition
 
-A DFD shows:
+Each theme is clearly defined.
 
-How data moves through the system.
+**Example:**\
+**Fear of job insecurity:** employee perceptions that automation may
+reduce their employment opportunities or importance within the
+organization.
 
-It can show:
+### 7. Interpretation and Reporting
 
-External entities
-Processes
-Data stores
-Data flows
+Themes are connected to:
 
-Example:
+-   research questions;
+-   existing literature;
+-   theoretical framework;
+-   organizational context.
 
-Student
-   ↓
-Submit Question
-   ↓
-AI Processing
-   ↓
-Generate Answer
-   ↓
-Student
+Selected quotations may be used as evidence while protecting participant
+identities.
 
-Remember
+------------------------------------------------------------------------
 
-DFD = DATA FLOW
+## (d) Establishing qualitative trustworthiness
 
-20. Context Diagram vs DFD
-Context	DFD
-High-level	More detailed
-Whole system as one process	Multiple processes
-External interactions	Data movement
-Big picture	Internal data flow
-Memory
+### Credibility
 
-Context = WHO interacts?
+Credibility concerns whether findings accurately represent participants'
+experiences.
 
-DFD = HOW DOES DATA MOVE?
+Methods:
 
-21. Activity Diagram
-Key takeaway
+-   triangulation;
+-   member checking;
+-   prolonged engagement;
+-   peer debriefing.
 
-Shows:
+### Transferability
 
-Activities and their sequence/workflow.
+Transferability concerns whether findings may be applicable to similar
+contexts.
 
-Example:
+The researcher should provide:
 
-START
-  ↓
-Login
-  ↓
-Select Topic
-  ↓
-Answer Question
-  ↓
-Correct?
- /    \
-Yes    No
- ↓      ↓
-Next   Hint
-  \    /
-    ↓
-   END
+**Thick description of the research setting and participants.**
 
+### Dependability
 
-Can show:
+Dependability concerns the consistency and transparency of the research
+process.
 
-Start
-Activities
-Decisions
-Loops
-End
-Remember
+Methods include:
 
-Activity = WORKFLOW
+-   audit trails;
+-   detailed methodological documentation;
+-   transparent analytical decisions.
 
-22. Flowchart
-Key takeaway
+### Confirmability
 
-A flowchart shows:
+Confirmability concerns whether findings are grounded in participant
+data rather than researcher bias.
 
-Procedural or algorithmic logic.
+Methods include:
 
-Example:
+-   reflexive journals;
+-   audit trails;
+-   triangulation;
+-   supporting quotations.
 
-START
-  ↓
-Enter marks
-  ↓
-Marks ≥ 50?
- /       \
-Yes       No
- ↓         ↓
-PASS      FAIL
- \         /
-    ↓
-   END
+------------------------------------------------------------------------
 
-Remember
+# QUESTION TEN
 
-Flowchart = ALGORITHM / LOGIC
+## (a) Critical distinction among research approaches
 
-23. Activity Diagram vs Flowchart
+### Design Science Research
 
-They are similar, but:
+Design Science Research develops and evaluates an artifact intended to
+solve a practical problem.
 
-Activity diagram
+The artifact may be:
 
-Focuses on:
+-   software;
+-   algorithm;
+-   framework;
+-   model;
+-   decision-support system.
 
-System/business workflow
+**Appropriate when:** the researcher must develop and evaluate an
+intelligent healthcare system.
 
-Example:
+### Action Research
 
-Submit assignment → teacher reviews → grade recorded.
+Action research combines research with practical intervention and
+reflection.
 
-Flowchart
+Typical cycle:
 
-Focuses on:
+**Plan → Act → Observe → Reflect → Improve**
 
-Algorithm/procedure
+**Appropriate when:** the researcher is actively participating in
+organizational change.
 
-Example:
+### Case Study Research
 
-Input marks → calculate average → if average ≥ 50 → pass.
+Case study research investigates a contemporary phenomenon deeply within
+its real-world context.
 
-Memory
+**Appropriate when:** understanding implementation in a particular
+healthcare organization.
 
-Activity = WORK
+### Experimental Research
 
-Flowchart = LOGIC
+Experimental research manipulates an independent variable and observes
+its effect on a dependent variable under controlled conditions.
 
-24. Class Diagram
-Key takeaway
+**Appropriate when:** testing causal effects.
 
-A class diagram shows:
+### Mixed-Methods Research
 
-Classes/objects, their attributes, methods, and relationships.
+Mixed methods integrates quantitative and qualitative approaches in one
+research programme.
 
-Example:
+**Appropriate when:** the researcher needs both statistical
+relationships and explanations of human experiences.
 
-+------------------+
-|     Student      |
-+------------------+
-| studentID        |
-| name             |
-| email            |
-+------------------+
-| login()          |
-| submitAnswer()   |
-+------------------+
+### Most appropriate approach
 
+**Design Science Research supported by mixed methods is the strongest
+overall choice.**
 
-A class contains:
+Design Science provides the methodology for developing and evaluating
+the artifact, while mixed methods provide evidence about performance,
+acceptance and user experiences.
 
-Class name
-Attributes
-Methods/operations
-Remember
+------------------------------------------------------------------------
 
-Class = SOFTWARE OBJECTS
+## (b) Design Science Research methodology
 
-25. ERD
+### 1. Problem Identification
 
-ERD = Entity Relationship Diagram
+Identify specific healthcare decision-support problems, such as:
 
-Key takeaway
+-   delayed identification of high-risk patients;
+-   fragmented health information;
+-   inconsistent clinical decision support;
+-   difficulty integrating multiple data sources.
 
-An ERD shows:
+### 2. Research Objectives
 
-What data the database stores and how entities are related.
+The objectives should include:
 
-Example:
+-   identifying system requirements;
+-   designing the intelligent decision-support system;
+-   developing the artifact;
+-   evaluating technical performance;
+-   evaluating user acceptance;
+-   identifying technological, organizational and human factors
+    affecting adoption.
 
-STUDENT
----------
-StudentID PK
-Name
-Email
+### 3. Artifact Design
 
-     |
-     | enrolls
-     ↓
+The architecture may include:
 
-COURSE
----------
-CourseID PK
-CourseName
+-   electronic-health-record integration;
+-   laboratory-data integration;
+-   data preprocessing;
+-   machine-learning prediction model;
+-   risk-prediction engine;
+-   clinician dashboard;
+-   explanation interface;
+-   security and access-control mechanisms.
 
+### 4. Artifact Development
 
-Important concepts:
+Activities include:
 
-Entity
-Attribute
-Primary key
-Foreign key
-Relationship
-Cardinality
-Remember
+-   data integration;
+-   data cleaning;
+-   feature engineering;
+-   model training;
+-   model validation;
+-   interface development;
+-   security implementation.
 
-ERD = DATABASE
+### 5. Demonstration
 
-26. Class Diagram vs ERD
-Class Diagram	ERD
-Software design	Database design
-Classes	Entities
-Attributes	Attributes
-Methods	Usually no methods
-Inheritance	Relationships/keys
-Objects	Stored data
-Memory
+The artifact is demonstrated using realistic healthcare scenarios.
 
-Class = how software objects behave
+For example:
 
-ERD = how database data is organized
+Patient data are entered into the system and the platform generates a
+risk classification for clinical review.
 
-27. Collaboration Diagram
+### 6. Evaluation
 
-Also commonly called a communication diagram.
+#### Technical Evaluation
 
-Key takeaway
+Evaluate:
 
-It shows:
+-   accuracy;
+-   sensitivity/recall;
+-   specificity;
+-   precision;
+-   F1-score;
+-   processing time;
+-   reliability;
+-   security.
 
-Which objects communicate with each other and what messages they exchange.
+#### User Evaluation
 
-Example:
+Evaluate:
 
-Student
-   |
-1: login()
-   ↓
-Mobile App
-   |
-2: authenticate()
-   ↓
-Authentication Server
-   |
-3: verify()
-   ↓
-Database
+-   perceived usefulness;
+-   perceived ease of use;
+-   trust;
+-   satisfaction;
+-   explainability;
+-   intention to use.
 
+### 7. Communication
 
-The numbered messages are important.
+The researcher communicates:
 
-Remember
+-   the problem;
+-   objectives;
+-   artifact;
+-   development process;
+-   evaluation;
+-   theoretical implications;
+-   practical implications;
+-   limitations.
 
-Collaboration = OBJECT COMMUNICATION
+------------------------------------------------------------------------
 
-28. All Diagram Types — One Table
+## (c) Mixed-methods Design
 
-| Diagram | Main question | Keyword |
-|---|---|---|
-| **Context Diagram** | Who interacts with the system? | **Interaction** |
-| **DFD** | How does data move? | **Data** |
-| **Activity Diagram** | What activities happen? | **Workflow** |
-| **Flowchart** | What is the algorithm/logic? | **Logic** |
-| **Class Diagram** | What software objects exist? | **Objects** |
-| **ERD** | What data is stored? | **Database** |
-| **Collaboration Diagram** | Which objects communicate? | **Communication** |
+A suitable design is:
 
+**Design Science Research + Explanatory Sequential Mixed Methods**
 
-29. The Entire Topic in One Memory Map
-```
-RESEARCH
-│
-├── Research Problem
-│     └── What is wrong/unknown?
-│
-├── Objectives
-│     └── What will I DO?
-│
-├── Questions
-│     └── What do I want to KNOW?
-│
-├── Hypotheses
-│     └── What do I PREDICT?
-│
-├── Research Approach
-│     ├── Quantitative → NUMBERS
-│     ├── Qualitative → EXPERIENCES
-│     └── Mixed → BOTH
-│
-├── Sampling
-│     └── Who will I study?
-│
-└── Data Analysis
-      ├── Correlation → RELATIONSHIP
-      ├── Regression → PREDICTION
-      └── Classification → CATEGORY
-```
-```
-SYSTEM ANALYSIS
-│
-├── Context → INTERACTIONS
-├── DFD → DATA FLOW
-├── Activity → WORKFLOW
-├── Flowchart → ALGORITHM
-├── Class → OBJECTS
-├── ERD → DATABASE
-└── Collaboration → COMMUNICATION
-```
-30. The 20-second exam cheat sheet
+### Phase 1: Quantitative Data
 
---------------
+Collect:
 
-If you're under exam pressure, remember these:
-```
-Research problem → What is wrong/unknown?
+-   healthcare professionals' questionnaire responses;
+-   system performance measures;
+-   user-acceptance measurements.
 
-Objective → What will I do?
+Analyze using:
 
-Question → What do I want to know?
+-   descriptive statistics;
+-   correlation;
+-   regression;
+-   SEM where appropriate.
 
-Hypothesis → What do I predict?
+**Purpose:** Determine measurable relationships among technological,
+organizational and human factors.
 
-Quantitative → Numbers.
+### Phase 2: Qualitative Data
 
-Qualitative → Experiences/meaning.
+Conduct:
 
-Mixed → Numbers + experiences.
+-   semi-structured interviews;
+-   focus groups;
+-   observations where appropriate.
 
-Sampling → Who do I select?
+Explore:
 
-Correlation → Relationship.
+-   trust;
+-   explainability;
+-   workflow impact;
+-   resistance;
+-   usefulness;
+-   ethical concerns;
+-   privacy concerns.
 
-Regression → Prediction.
+Analyze using:
 
-Classification → Category.
+**Thematic analysis.**
 
-Context diagram → External interactions.
+**Purpose:** Explain the quantitative results and identify issues not
+captured by the questionnaire.
 
-DFD → Data movement.
+### Phase 3: System Development
 
-Activity diagram → Workflow.
+Develop the artifact based on:
 
-Flowchart → Algorithm/logic.
+-   literature;
+-   stakeholder requirements;
+-   quantitative findings;
+-   qualitative findings.
 
-Class diagram → Software objects.
+### Phase 4: Demonstration and Evaluation
 
-ERD → Database.
+Evaluate:
 
-Collaboration diagram → Object communication.
-```
-The most important chain to memorize:
-```
-Problem → Objective → Question → Hypothesis → Approach → Sampling → Analysis
-```
-And for systems:
+#### Technical Performance
 
-```
-Context → Data → Process → Objects → Database → Communication
-```
+-   accuracy;
+-   sensitivity;
+-   specificity;
+-   precision;
+-   F1-score;
+-   reliability.
 
+#### User Acceptance
+
+-   usefulness;
+-   ease of use;
+-   trust;
+-   satisfaction;
+-   intention to use.
+
+### Phase 5: Integration
+
+The results are integrated by comparing quantitative and qualitative
+findings.
+
+For example:
+
+Quantitative analysis may show that trust significantly predicts
+intention to use. Interviews may explain that trust depends on
+transparency, perceived accuracy, explainability and clinicians' ability
+to retain control over decisions.
+
+Therefore:
+
+**Quantitative data answer: "What relationship exists?"**
+
+**Qualitative data answer: "Why and how does the relationship occur?"**
+
+**Design Science answers: "What artifact can address the identified
+problem?"**
+
+------------------------------------------------------------------------
+
+## (d) Expected Research Contributions
+
+### i. Theoretical Contribution
+
+The study may extend existing technology-acceptance and
+information-systems theories by explaining how:
+
+-   technological factors;
+-   organizational factors;
+-   human factors;
+-   trust;
+-   explainability
+
+jointly influence acceptance of intelligent healthcare decision-support
+systems.
+
+### ii. Methodological Contribution
+
+The study demonstrates an integrated methodology combining:
+
+**Design Science Research + Quantitative Research + Qualitative
+Research + Artifact Evaluation**
+
+This provides a rigorous methodological approach for investigating
+intelligent healthcare information systems.
+
+### iii. Technological Contribution
+
+The research produces a functional intelligent decision-support artifact
+capable of:
+
+-   integrating health information;
+-   identifying patients at high risk;
+-   supporting clinical decisions;
+-   presenting interpretable results.
+
+### iv. Practical Contribution
+
+The system may help healthcare organizations:
+
+-   identify high-risk patients earlier;
+-   improve decision support;
+-   improve resource allocation;
+-   improve user training;
+-   increase system acceptance;
+-   address healthcare professionals' concerns.
+
+### v. Contextual Contribution
+
+The study contributes empirical evidence from a **developing-country
+healthcare context**, where challenges may include:
+
+-   limited infrastructure;
+-   poor data quality;
+-   interoperability constraints;
+-   limited digital competence;
+-   resource limitations;
+-   organizational readiness challenges.
+
+------------------------------------------------------------------------
+
+# QUICK EXAM REVISION SUMMARY
+
+## Core distinctions to remember
+
+  -----------------------------------------------------------------------
+  Concept                             Key meaning
+  ----------------------------------- -----------------------------------
+  **Research Topic**                  Broad subject being investigated
+
+  **Research Problem**                Specific issue that makes
+                                      investigation necessary
+
+  **Research Gap**                    What existing knowledge has not
+                                      adequately explained
+
+  **Research Objective**              What the researcher intends to
+                                      accomplish
+
+  **Research Question**               What the researcher seeks to answer
+
+  **Hypothesis**                      Testable prediction about a
+                                      relationship
+
+  **Conceptual Framework**            Researcher's proposed relationships
+                                      among constructs
+
+  **Theoretical Framework**           Established theory supporting the
+                                      study
+
+  **Research Model**                  Specific testable variables and
+                                      relationships
+
+  **Analytical Model**                Statistical/mathematical
+                                      representation of the relationships
+  -----------------------------------------------------------------------
+
+## Core methodological sequence
+
+**Problem → Gap → Objectives → Questions/Hypotheses → Philosophy →
+Approach → Design → Sampling → Data Collection → Data Analysis →
+Findings → Contribution**
+
+## Core philosophy sequence
+
+**Positivism → measurement and objectivity**
+
+**Interpretivism → meaning and lived experience**
+
+**Pragmatism → practical problem solving and methodological
+flexibility**
+
+**Critical Realism → underlying mechanisms and structures**
+
+## Core reasoning approaches
+
+**Deduction:** Theory → Hypothesis → Data → Test
+
+**Induction:** Data → Patterns → Concepts → Theory
+
+**Abduction:** Theory ↔ Data → Most plausible explanation
+
+## Core quantitative techniques
+
+**Correlation:** association
+
+**t-test:** difference between two means
+
+**ANOVA:** difference among three or more means
+
+**Regression:** prediction/association using multiple predictors
+
+**SEM:** simultaneous relationships involving latent constructs,
+mediation and complex models
+
+## Core qualitative designs
+
+**Phenomenology:** lived experience
+
+**Grounded Theory:** theory development
+
+**Ethnography:** culture
+
+**Case Study:** bounded real-world case
+
+**Narrative:** individual stories
+
+**Action Research:** intervention and change
+
+## Core quality concepts
+
+**Validity:** whether the instrument measures what it is intended to
+measure.
+
+**Reliability:** consistency of measurement.
+
+**Credibility:** confidence in qualitative findings.
+
+**Transferability:** applicability to similar contexts.
+
+**Dependability:** consistency and transparency of the qualitative
+process.
+
+**Confirmability:** findings grounded in participant evidence rather
+than researcher bias.
+
+## Final examination principle
+
+A strong research-methodology answer should consistently demonstrate
+**alignment**:
+
+**Research Problem → Research Gap → Objective → Research
+Question/Hypothesis → Theory → Methodology → Data → Analysis →
+Contribution**
+
+When answering an examination question, define the concept, explain it,
+apply it to the case, state its strengths and limitations where
+relevant, and justify the recommended choice.
